@@ -1,0 +1,21 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eject": "node -e \"require('./index.js').eject()\"",
+    "replace": "node -e \"require('./index.js').replace()\"",
+    "translate": "node -e \"require('./index.js').translate()\""
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.1.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.1",
+    "rimraf": "^5.0.0",
+    "translate": "^2.0.2"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "replace": {
+    "title": "FÉLICITATIONS!",
+    "#content1 h2": "FÉLICITATIONS!",
+    "#content1 h2 + p": "Vous avez été sélectionné(e) pour participer à la campagne Canon.  Vous pouvez gagner un appareil photo Canon!",
+    "#content1 > p:nth-of-type(2)": "Si vous voulez gagner appareil photo Canon, vous devrez répondre à un questionnaire pour confirmer que vous êtes une personne réelle.",
+    "#content1 > p:nth-of-type(3)": "Dépêchez-vous, le nombre de sacs est limité!",
+
+    "#content2 h2": "VOS RÉPONSES SONT EN COURS DE VÉRIFICATION...",
+    "#p_modal1 h2": "FÉLICITATIONS, VOUS VENEZ DE PROUVER QUE VOUS ÊTES UNE PERSONNE RÉELLE.",
+
+    "#p_modal2 p": "Désolé, ce coffret est vide! Mais vous pouvez réessayer deux fois. Bonne chance!",
+
+    "#p_modal3 h2": "FÉLICITATIONS! VOUS AVEZ GAGNÉ!",
+    "#p_modal3 button": "Postuler maintenant",
+
+    ".intro-offer span": "5.0 (12 recensioni)",
+
+    ".form-title": "Veuillez saisir vos coordonnées",
+
+    ".firstname": "Prénom",
+    "#firstnameInvalid": "* Le prénom est invalide (ex. Vincent)",
+
+    ".lastname": "Nom de famille",
+    "#lastnameInvalid": "* Le nom de famille n’est pas valide (ex. Lambert)",
+
+    ".address": "Adresse",
+    ".zipcode": "Code postal",
+    ".city": "Ville",
+
+    ".phone": "Numéro de téléphone",
+    "#phoneInvalid": "* Le numéro de téléphone n’est pas valide (ex. +11234567890)",
+
+    ".email": "e-mail",
+    "#emailInvalid": "* L’adresse e-mail n’est pas valide (par exemple husband@gmail.com)",
+
+    ".info-button": "Continuer",
+    ".comments p span": "Plus d’options",
+    ".comments:first-of-type p:last-of-type": "10 à 80",
+    ".comment-status span": "Mi piace • Commento"
+  },
+
+  "replaceQ": {
+    ".question strong": [
+      "Question 1 de 3",
+      "Question 2 de 3",
+      "Question 3 de 3"
+    ],
+    ".question span": [
+      "Êtes-vous originaire de Belgique?",
+      "Avez-vous déjà acheté quelque chose deCanon?",
+      "Voulez-vous participer au tirage au sort d’un appareil photo Canon?"
+    ]
+  },
+
+  "replaceIn": {
+    "#content2": [
+      "Vous avez répondu à 3 des 3 questions!",
+      "Il n’y a pas d’enquête préliminaire sur votre IP",
+      "Les cadeaux sont chargés..."
+    ],
+
+    "#p_modal1": [
+      "Aujourd'hui, vous avez la possibilité d'obtenir un appareil photo Canon!",
+      "Il suffit de choisir la bonne boîte cadeau.",
+      "Vous avez 3 tentatives, bonne chance!"
+    ],
+
+    "#p_modal3": [
+      "1) Cliquez sur «Postuler maintenant».",
+      "2) Remplissez le formulaire et payez la livraison.",
+      "3) Le colis sera livré dans un délai de 5 à 7 jours."
+    ],
+    ".comment-content": [
+      "Dommage, je n’ai rien gagné!",
+      "J’aime ces promotions!",
+      "J’ai reçu aujourd’hui mon appareil photo aujourd’hui. Merci beaucoup!",
+      "Je pensais que c’était une blague, mais mon appareil photo  est arrivé ce matin!",
+      "J’ai participé, j’ai gagné et j’ai reçu mon appareil photo Canon après 5 jours. Merci beaucoup les gars!",
+      "Puis-je recevoir mon appareil photo Canon aujourd’hui? Merci",
+      "Je pensais qu’il s’agissait d’une blague, mais ce matin, j’ai reçu mon appareil photo Canon via DHL et j’adorerais participer à d’autres enquêtes!",
+      "Y a-t-il d’autres enquêtes à effectuer?",
+      "Fantastique! Je n’ai jamais rien gagné auparavant!",
+      "J’ai d’abord cru à une blague, mais j’ai finalement obtenu mon appareil photo. J’en ai parlé à mes amis pour qu’ils puissent en bénéficier également."
+    ],
+    ".comment-status": [
+      "Il y a 4 minutes",
+      "Il y a 11 minutes",
+      "Il y a 15 minutes",
+      "Il y a 38 minutes",
+      "Il y a 42 minutes",
+      "Il y a 1 heure",
+      "Il y a 2 heures",
+      "Il y a 2 heures",
+      "Il y a 3 heures",
+      "Il y a 4 heures"
+    ]
+  }
+}

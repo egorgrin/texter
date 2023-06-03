@@ -1,0 +1,87 @@
+{
+  "replace": {
+    "title": "CONGRATULAZIONI!",
+    "#content1 h2": "CONGRATULAZIONI!",
+    "#content1 h2 + p": "Sei stato selezionato per partecipare alla campagna Marc Jacobs. Puoi vincere una borsa Marc Jacobs!",
+    "#content1 > p:nth-of-type(2)": "Se desideri una borsa Marc Jacobs, devi compilare un sondaggio per confermare che sei una persona reale.",
+    "#content1 > p:nth-of-type(3)": "Fai in fretta, il numero di borse è limitato!",
+
+    "#content2 h2": "LE TUE RISPOSTE SONO IN FASE DI VERIFICA...",
+    "#p_modal1 h2": "CONGRATULAZIONI, HAI VERIFICATO CON SUCCESSO CHE SEI UNA PERSONA REALE.",
+
+    "#p_modal2 p": "Spiacenti, questo pacchetto regalo è vuoto! Ma puoi riprovare altre due volte. Buona fortuna!",
+
+    "#p_modal3 h2": "CONGRATULAZIONI! HAI VINTO!",
+    "#p_modal3 button": "Richiedi ora",
+
+    ".intro-offer span": "5.0 (12 recensioni)",
+
+    ".form-title": "Inserisci i tuoi dati",
+
+    ".firstname": "Nome",
+    "#firstnameInvalid": "* Nome non valido (es.: Vincent)",
+
+    ".lastname": "Cognome",
+    "#lastnameInvalid": "* Cognome non valido (es.: Lambert)",
+
+    ".address": "Indirizzo",
+    ".zipcode": "Codice postale",
+    ".city": "Città",
+
+    ".phone": "Numero di telefono",
+    "#phoneInvalid": "* Il telefono non è valido (es.: +11234567890)",
+
+    ".email": "Email",
+    "#emailInvalid": "* Email non valida (es.: marito@gmail.com)",
+
+    ".info-button": "Continua",
+    
+    ".comments p span": "Altre opzioni",
+    ".comments:first-of-type p:last-of-type": "Da 10 a 80",
+    ".comment-status span": "Mi piace • Commento"
+  },
+
+  "replaceQ": {
+    ".question strong": ["Domanda 1 di 3", "Domanda 2 di 3", "Domanda 3 di 3"],
+    ".question span": [
+      "Vieni da Paese?",
+      "Hai acquistato qualcosa di Marc Jacobs?",
+      "Vuoi partecipare al sorteggio con in palio una borsa Marc Jacobs?"
+    ]
+  },
+
+  "replaceIn": {
+    "#content2": [
+      "Hai risposto a 3 domande su 3!",
+      "Non ci sono indagini preliminari sul tuo IP",
+      "Caricamento regali..."
+    ],
+
+    "#p_modal1": [
+      "Oggi hai l'opportunità di ottenere borsa Marc Jacobs!",
+      "Devi solo scegliere il pacchetto regalo giusto.",
+      "Hai 3 tentativi, buona fortuna!"
+    ],
+
+    "#p_modal3": [
+      "1) Fai clic su \"Richiedi ora\".",
+      "2) Compila il modulo e paga per la consegna.",
+      "3) Il pacco sarà consegnato entro 5-7 giorni."
+    ],
+
+    ".comment-content": [
+      "Cazzo, non ho vinto niente!",
+      "Mi piacciono queste promozioni!",
+      "Oggi ho ricevuto la mia {ITEM}. Grazie mille!",
+      "Pensavo fosse uno scherzo, ma la mia {ITEM} è arrivata stamattina!",
+      "Ho partecipato, ho vinto e ho ricevuto la mia {ITEM} dopo 5 giorni. Grazie mille ragazzi!",
+      "Posso ricevere la mia {ITEM} oggi? Grazie",
+      "Pensavo fosse uno scherzo, ma stamattina ho ricevuto la mia {ITEM} tramite DHL e vorrei fare altri sondaggi!",
+      "Ci sono altri sondaggi da fare?",
+      "Fantastico! Non avevo mai vinto niente prima d'ora!",
+      "All'inizio pensavo fosse uno scherzo, ma stamattina ho ricevuto la mia {ITEM}. L'ho detto alle amiche, per farla vincere anche a loro."
+    ],
+
+    ".comment-status": ["", "", "", "", "", "", "", "", "", ""]
+  }
+}

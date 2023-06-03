@@ -1,0 +1,85 @@
+{
+  "replace": {
+    "title": "HERZLICHEN GLÜCKWUNSCH!",
+    "#content1 h2": "Herzlichen Glückwunsch!",
+    "#content1 h2 + p": "Heute, am <span class=\"p_var-dia\">27</span>&nbsp;<span class=\"p_var-mes_nombre\">Oktober</span>, <span class=\"p_var-anyo\">2019</span>, wurden Sie ausgewählt, um an dieser Umfrage teilzunehmen. Es wird nur eine Minute Ihrer Zeit in Anspruch nehmen und Sie haben die Möglichkeit, einen fantastischen Preis zu gewinnen: Eine Canon-Kamera!",
+    "#content1 > p:nth-of-type(2)": "Jeden <span class=\"p_var-dia_nombre\">Sonntag</span> wählen wir 10 zufällige Benutzer aus und geben ihnen die Chance, fabelhafte Preise zu gewinnen. Der heutige Preis ist eine <span class=\"p_var-producto\">Canon-Kamera</span>! Es wird 10 glückliche Gewinner geben.",
+    "#content1 > p:nth-of-type(3)": "Diese Umfrage zielt darauf ab, den Service für unsere Benutzer zu verbessern.",
+
+    "#content2 h2": "IHRE ANTWORTEN WERDEN GEPRÜFT...",
+
+    "#p_modal1 h2": "HERZLICHEN GLÜCKWUNSCH, SIE HABEN ERFOLGREICH VERIFIZIERT, DASS SIE EINE ECHTE PERSON SIND.",
+
+    "#p_modal2 p": "Diese Geschenkbox ist leider leer! Sie können es aber noch zwei weitere Male versuchen. Viel Glück!",
+
+    "#p_modal3 h2": "HERZLICHEN GLÜCKWUNSCH! SIE HABEN GEWONNEN!",
+    "#p_modal3 button": "Jetzt bewerben",
+
+    ".intro-offer span": "5.0 (12 Bewertungen)",
+
+    ".form-title": "Bitte geben Sie Ihre Daten ein",
+
+    ".firstname": "Vorname",
+    "#firstnameInvalid": "* Der Vorname ist ungültig (z. B. Vincent)",
+
+    ".lastname": "Nachname",
+    "#lastnameInvalid": "* Der Nachname ist nicht gültig (z. B. Lambert)",
+
+    ".address": "Adresse",
+    ".zipcode": "Postleitzahl",
+    ".city": "Stadt",
+
+    ".phone": "Telefonnummer",
+    "#phoneInvalid": "* Die Telefonnummer ist nicht gültig (z. B. +11234567890)",
+
+    ".email": "E-Mail ",
+    "#emailInvalid": "* Die E-Mail ist ungültig (z. B. husband@gmail.com)",
+
+    ".info-button": "Weiter",
+    ".comments p span": "Weitere Optionen",
+    ".comments:first-of-type p:last-of-type": "10 bis 80",
+    ".comment-status span": "Sie gefällt mir • Kommentar"
+  },
+  "replaceQ": {
+    ".question strong": ["Frage 1 von 3", "Frage 2 von 3", "Frage 3 von 3"],
+    ".question span": [
+      "Sind Sie aus Schweiz?",
+      "Haben Sie etwas von Canon gekauft?",
+      "Möchten Sie an der Verlosung einer Canon-Kamera teilnehmen?"
+    ]
+  },
+  "replaceIn": {
+    "#content2": [
+      "Sie haben 3/3 der Fragen beantwortet!",
+      "Es gibt keine Vorermittlungen zu Ihrer IP",
+      "Geschenke sind bereit ..."
+    ],
+
+    "#p_modal1": [
+      "Heute haben Sie die Möglichkeit, eine Canon-Kamera zu bekommen!",
+      "Wählen Sie einfach die richtige Geschenkverpackung.",
+      "Sie haben 3 Versuche, viel Glück!"
+    ],
+
+    "#p_modal3": [
+      "1) Klicken Sie auf „Jetzt bewerben“.",
+      "2) Füllen Sie das Formular aus und bezahlen Sie die Lieferung.",
+      "3) Das Paket wird innerhalb von 5–7 Tagen geliefert."
+    ],
+
+    ".comment-content": ["Scheiße, ich habe nichts gewonnen!", "Ich mag diese Werbeaktionen!", "Ich habe meine Canon-Kamera heute erhalten. Herzlichen Dank!", "Ich dachte, es sei ein Scherz, aber meine Canon-Kamera ist heute Morgen angekommen!", "Ich nahm teil, gewann und erhielt meine Canon-Kamera nach 5 Tagen. Vielen Dank, Leute!", "Kann ich meine Canon-Kamera heute erhalten? Vielen Dank", "Ich dachte, es sei ein Scherz, doch heute Morgen erhielt ich meine Canon-Kamera per DHL und würde gerne an weiteren Umfragen teilnehmen!", "Gibt es noch andere Umfragen, an denen ich teilnehmen kann?", "Fantastisch! Ich habe noch nie etwas gewonnen!", "Zuerst dachte ich, es sei ein Scherz, aber schließlich bekam ich meine Canon-Kamera. Ich habe Freunde darüber informiert, damit sie ebenfalls ihre Taschen bekommen können."],
+
+    ".comment-status": [
+      "Vor 4 Minuten",
+      "Vor 11 Minuten",
+      "Vor 15 Minuten",
+      "Vor 38 Minuten",
+      "Vor 42 Minuten",
+      "Vor 1 Stunde",
+      "Vor 2 Stunden",
+      "Vor 2 Stunden",
+      "Vor 3 Stunden",
+      "Vor 4 Stunden"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "replace": {
+    "title": "¡FELICITACIONES!",
+    "#content1 h2": "¡FELICITACIONES!",
+    "#content1 h2 + p": "Has sido seleccionado para participar en la campaña Michael Kors. ¡Podrías ganar un bolso de Michael Kors!",
+    "#content1 > p:nth-of-type(2)": "Si quieres un bolso de Michael Kors, tendrás que completar una encuesta para confirmar que eres una persona real.",
+    "#content1 > p:nth-of-type(3)": "¡Date prisa, la cantidad de bolsos es limitada!",
+
+    "#content2 h2": "TUS RESPUESTAS ESTÁN SIENDO REVISADAS...",
+    "#p_modal1 h2": "FELICITACIONES, HAS COMPROBADO CON ÉXITO QUE ERES UNA PERSONA REAL.",
+
+    "#p_modal2 p": "¡Lo sentimos, esta caja de regalo está vacía! Pero puedes volver a intentarlo dos veces más. ¡Buena suerte!",
+
+    "#p_modal3 h2": "¡FELICITACIONES! ¡HAS GANADO!",
+    "#p_modal3 button": "Solicitar ahora",
+
+    ".intro-offer span": "5.0 (12 reseñas)",
+
+    ".form-title": "Ingresa tus datos",
+    ".firstname": "Nombre",
+    "#firstnameInvalid": "* El nombre no es válido (p. ej., Vincent)",
+
+    ".lastname": "Apellido",
+    "#lastnameInvalid": "* El apellido no es válido (p. ej., Lambert)",
+
+    ".address": "Dirección",
+    ".zipcode": "Código postal",
+    ".city": "Ciudad",
+    ".phone": "Número de teléfono",
+    "#phoneInvalid": "* El teléfono no es válido (p. ej., +11234567890)",
+    ".email": "Correo electrónico",
+    "#emailInvalid": "* El correo electrónico no es válido (p. ej., husband@gmail.com)",
+    ".info-button": "Continuar",
+    ".comments p span": "Más opciones",
+    ".comments:first-of-type p:last-of-type": "10 a 80",
+    ".comment-status span": "Me gusta • Comentario"
+  },
+
+  "replaceQ": {
+    ".question strong": [
+      "Pregunta 1 de 3",
+      "Pregunta 2 de 3",
+      "Pregunta 3 de 3"
+    ],
+    ".question span": [
+      "¿Eres de España?",
+      "¿Has comprado algo de Michael Kors?",
+      "¿Quieres participar en el sorteo por un bolso de Michael Kors?"
+    ]
+  },
+
+  "replaceIn": {
+    "#content2": [
+      "¡Has respondido 3/3 de las preguntas!",
+      "No hay investigaciones preliminares sobre tu IP",
+      "Los regalos están cargados..."
+    ],
+
+    "#p_modal1": [
+      "¡Hoy tienes la oportunidad de conseguir un bolso de Michael Kors!",
+      "Simplemente elige la caja de regalo correcta.",
+      "Tienes 3 intentos, ¡buena suerte!"
+    ],
+
+    "#p_modal3": [
+      "1) Haz clic en \"Solicitar ahora\".",
+      "2) Completa el formulario y paga por el envío.",
+      "3) El paquete será entregado en el plazo de 5-7 días."
+    ],
+
+    ".comment-content": [
+      "¡Joder, no he ganado nada!",
+      "¡Me gustan estas promociones!",
+      "Hoy he recibido mi bolso de Michael Kors. ¡Muchas gracias!",
+      "¡Pensé que era una broma, pero mi bolso de Michael Kors llegó esta mañana!",
+      "Participé, gané y recibí mi bolso de Michael Kors a los 5 días. ¡Muchas gracias, muchachos!",
+      "¿Puedo recibir mi bolso de Michael Kors hoy? Gracias",
+      "Pensé que era una broma, pero esta mañana recibí mi bolso de Michael Kors a través de DHL ¡y me gustaría hacer más encuestas!",
+      "¿Hay otras encuestas para completar?",
+      "¡Fantástico! ¡Nunca antes había ganado nada!",
+      "Al principio pensé que era una broma, pero finalmente obtuve mi bolso de Michael Kors. Les conté a mis amigos al respecto, para que ellos también puedan conseguir los suyos."
+    ],
+    ".comment-status": [
+      "Hace 4 minutos",
+      "Hace 11 minutos",
+      "Hace 15 minutos",
+      "Hace 38 minutos",
+      "Hace 42 minutos",
+      "Hace 1 hora",
+      "Hace 2 hora",
+      "Hace 2 hora",
+      "Hace 3 hora",
+      "Hace 4 hora"
+    ]
+  }
+}
+

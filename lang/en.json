@@ -1,0 +1,93 @@
+{
+  "title": "Congratulations!",
+  "#content1 h2": "Congratulations!",
+  "#content1 h2 + p": "You have been selected to participate in the {BRANDNAME} campaign. You could win a {BRANDNAME} {ITEM}!",
+  "#content1 > p:nth-of-type(2)": "If you want a {BRANDNAME} {ITEM}, you'll need to fill out a survey to confirm you're a real person.",
+  "#content1 > p:nth-of-type(3)": "Be quick, the number of prizes is limited!",
+
+  "#content2 h2": "Your answers are being checked...",
+
+  "#p_modal1 h2": "Congratulations, you have successfully verified that you are a real person.",
+
+  "#p_modal2 p": "Sorry, this gift box is empty! But you can try again two more times. Good luck! ",
+
+  "#p_modal3 h2": "Congratulations! You won!",
+  "#p_modal3 button": "Apply now",
+
+  ".intro-offer span": "5.0 (12 reviews)",
+  ".form-title": "Please enter your information",
+  ".firstname": "First name",
+  "#firstnameInvalid": "* First name is invalid (ex. Vincent)",
+  ".lastname": "Last name",
+  "#lastnameInvalid": "* The name of family is not valid (ex. Lambert)",
+  ".address": "Address",
+  ".zipcode": "Postal code",
+  ".city": "City",
+  ".phone": "Phone number",
+  "#phoneInvalid": "* The phone is not valid (ex. +11234567890)",
+  ".email": "Email",
+  "#emailInvalid": "* Email is invalid (e.g. husband@gmail.com)",
+  ".info-button": "Continue",
+
+  ".comments p span": "More options",
+  ".comments:first-of-type p:last-of-type": "10 to 80",
+  ".comment-status span": "I like it · Comment <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">6&nbsp;",
+
+  ".question strong": [
+    "Question 1 of 3:",
+    "Question 2 of 3:",
+    "Question 3 of 3:"
+  ],
+  ".question span": [
+    "Are you from United States?",
+    "Have you bought anything of {BRANDNAME}?",
+    "Do you want to participate in the raffle for a {BRANDNAME} {ITEM}?"
+  ],
+  ".survey_button": [
+    "YES",
+    "NO",
+    "YES",
+    "NO",
+    "YES",
+    "NO"
+  ],
+  "#content2": [
+    "You answered 3/3 of the questions!",
+    "There are no preliminary investigations into your IP",
+    "Gifts are loaded..."
+  ],
+  "#p_modal1": [
+    "Today you have the opportunity to get {BRANDNAME} {ITEM}!",
+    "Simply choose the right gift box.",
+    "You have 3 attempts, good luck!"
+  ],
+  "#p_modal3": [
+    "1) Click \"Apply Now\".",
+    "2) Complete the form and pay for delivery.",
+    "3) The package will be delivered within 5-7 days."
+  ],
+  ".comment-content": [
+    "Shit I didn’t win anything!",
+    "I like these promotions!",
+    "I received my {BRANDNAME} {ITEM} today. Thanks a lot!",
+    "I thought it was a joke, but my {ITEM} arrived this morning!",
+    "I participated, I won and I received my {ITEM} after 5 days. Thank you so much guys!",
+    "Can I receive my {BRANDNAME} {ITEM} today? Thank you",
+    "I thought it was a joke but this morning I received my {BRANDNAME} {ITEM} via DHL and would like to take more surveys!",
+    "Are there any other surveys to take?",
+    "Fantastic! I have never won anything before!",
+    "At first I thought it was a joke but finally I got my {ITEM}. I told friends about it, so they can get theirs too."
+  ],
+  ".comment-status": [
+    "4 minutes ago",
+    "11 minutes ago",
+    "15 minutes ago",
+    "38 minutes ago",
+    "42 minutes ago",
+    "1 hour ago",
+    "2 hours ago",
+    "2 hours ago",
+    "3 hours ago",
+    "4 hours ago"
+  ]
+}

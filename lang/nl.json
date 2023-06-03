@@ -1,0 +1,76 @@
+{
+  "replace": {
+    "title": "GEFELICITEERD!",
+    "#content1 h2": "GEFELICITEERD!",
+    "#content1 h2 + p": "Je bent geselecteerd om deel te nemen aan de Canon-campagne. Je kunt een Canon-camera winnen!",
+    "#content1 > p:nth-of-type(2)": "Als je een Canon-camera wilt winnen, moet je een vragenlijst invullen om te bevestigen dat je een echt persoon bent.",
+    "#content1 > p:nth-of-type(3)": "Haast je, het aantal tassen is beperkt!",
+
+    "#content2 h2": "Je antwoorden worden gecontroleerd...",
+
+    "#p_modal1 h2": "Gefeliciteerd, u heeft met succes geverifieerd dat u een echt persoon bent.",
+
+    "#p_modal2 p": "Sorry, deze geschenkdoos is leeg! Maar je kunt het nog twee keer proberen. Succes!",
+
+    "#p_modal3 h2": "Gefeliciteerd! Jij hebt gewonnen!",
+    "#p_modal3 button": "Nu toepassen",
+
+    ".intro-offer span": "5.0 (12 recensies)",
+    ".form-title": "Voer uw gegevens in",
+
+    ".firstname": "Voornaam",
+    "#firstnameInvalid": "* Voornaam is ongeldig (bijv. Vincent)",
+
+    ".lastname": "Achternaam",
+    "#lastnameInvalid": "* De naam van familie is niet geldig (bijv. Lambert)",
+
+    ".address": "Adres",
+    ".zipcode": "Postcode",
+    ".city": "Stad",
+
+    ".phone": "Telefoonnummer",
+    "#phoneInvalid": "* De telefoon niet geldig (bijv. 11234567890)",
+
+    ".email": "E-mail",
+    "#emailInvalid": "* Email is ongeldig (bijv. echtgenoot@gmail.com)",
+
+    ".info-button": "Doorgaan",
+
+    ".comments p span": "Meer opties",
+    ".comments:first-of-type p:last-of-type": "10 tot 80",
+    ".comment-status span": "Ik vind het leuk · Reactie"
+  },
+  "replaceQ": {
+    ".question strong": ["Vraag 1 van 3","Vraag 2 van 3","Vraag 3 van 3"],
+    ".question span": ["Komt u uit België?","Heb je al een keer eerder iets gekocht van Bol.com?","Wil je meedoen in de loterij voor een Canon-camera?"]
+  },
+  "replaceIn": {
+    "#content2": ["Je hebt 3/3 van de vragen beantwoord!","Er zijn geen vooronderzoeken naar uw IP","Cadeaus zijn geladen..."],
+    "#p_modal1": ["Vandaag heb je de mogelijkheid om een Canon-camera te bemachtigen!","Je hoeft alleen de juiste geschenkverpakking te kiezen!","Je hebt 3 pogingen, succes!"],
+    "#p_modal3": ["1) Klik op \"Nu toepassen\".","2) Vul het formulier in en betaal voor de verzending.","3) Het pakket wordt binnen 5-7 dagen bezorgd."],
+    ".comment-content": [
+      "Shit, ik heb niets gewonnen!",
+      "Ik hou van deze promoties!",
+      "Ik heb vandaag mijn camera van Canon ontvangen. Hartelijk bedankt!",
+      "Ik dacht dat het een grap was, maar mijn camera van Canon is vanmorgen aangekomen!",
+      "Ik deed mee, ik won en ik ontving mijn Canon-camera na 5 dagen. Bedankt zoveel jongens!",
+      "Kan ik mijn camera van Canon vandaag ontvangen? Bedankt",
+      "Ik dacht dat het een grap was, maar vanmorgen ontving ik mijn Canon-camera via DHL en wil graag meer enquêtes invullen!",
+      "Zijn er nog andere enquêtes die moeten worden afgenomen?",
+      "Fantastisch! Ik heb nog nooit iets gewonnen!",
+      "Eerst dacht ik dat het een grap was, maar uiteindelijk kreeg ik mijn camera van Canon. ik zei vrienden erover, zodat zij die van hen ook kunnen krijgen."
+    ],
+    ".comment-status": [
+      "4 minuten geleden",
+      "11 minuten geleden",
+      "15 minuten geleden",
+      "38 minuten geleden",
+      "42 minuten geleden",
+      "1 uur geleden",
+      "2 uren geleden",
+      "2 uren geleden",
+      "3 uren geleden",
+      "4 uren geleden"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "title": "CONGRATULAZIONI!",
+  "#content1 h2": "CONGRATULAZIONI!",
+  "#content1 h2 + p": "Oggi, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">{MOUTH}</span>, sei stato scelto per partecipare a questo sondaggio. Ci vorrà solo un minuto del tuo tempo e potrai ricevere un fantastico premio: un {ITEM}!",
+
+  "#content1 > p:nth-of-type(2)": "Ogni <span class=\"p_var-dia_nombre\">{DAY__OF_WEEK}</span>, scegliamo 10 utenti a caso, dando loro la possibilità di vincere favolosi premi. Il premio di oggi è un {ITEM}!",
+
+  "#content1 > p:nth-of-type(3)": "Ci saranno 10 fortunati vincitori. Questo sondaggio ha lo scopo di migliorare il servizio per i nostri utenti.",
+
+  "#content1 > p:nth-of-type(4)": "Hai solo <font color=\"red\"><b><span id=\"timerr\" style=\"color:#bc2633\">{TIMER}</span></b></font>, per partecipare.",
+
+  "#content1 > p:nth-of-type(5)": "Affrettati, il numero di premi è limitato!",
+
+  "#content2 h2": "Stiamo controllando le tue risposte...",
+
+  "#p_modal1 h2": "CONGRATULAZIONI, ABBIAMO CONVALIDATO CORRETTAMENTE LE TUE RISPOSTE.",
+
+  "#p_modal2 p": "Hai un turno in più!",
+
+  "#p_modal3 h2": "CONGRATULAZIONI! Hai vinto il {ITEM}!",
+  "#p_modal3 button": "Richiedi ora",
+
+  ".intro-offer span": "5.0 (12 recensioni)",
+
+  ".form-title": "Inserisci i tuoi dati",
+
+  ".firstname": "Nome",
+  "#firstnameInvalid": "* Nome non valido (es.: Vincent)",
+
+  ".lastname": "Cognome",
+  "#lastnameInvalid": "* Cognome non valido (es.: Lambert)",
+
+  ".address": "Indirizzo",
+  ".zipcode": "Codice postale",
+  ".city": "Città",
+
+  ".phone": "Numero di telefono",
+  "#phoneInvalid": "* Il telefono non è valido (es.: +11234567890)",
+
+  ".email": "Email",
+  "#emailInvalid": "* Email non valida (es.: marito@gmail.com)",
+
+  ".info-button": "Continua",
+
+  ".comments p span": "Altre opzioni",
+  ".comments:first-of-type p:last-of-type": "Da 10 a 80",
+  ".comment-status span": "Mi piace • Commento <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">6&nbsp;",
+
+  ".question strong": [
+    "Domanda 1 di 3",
+    "Domanda 2 di 3",
+    "Domanda 3 di 3"
+  ],
+  ".question span": [
+    "Sei un uomo o una donna?",
+    "Quanti anni hai?",
+    "Da quanti membri è composta la tua famiglia?",
+    "Hai mai acquistato qualcosa da {STORE} prima d'ora?"
+  ],
+  ".survey_button": [
+    "Maschio",
+    "Donne",
+
+    "18-29",
+    "30-39",
+    "40-49",
+    "50+",
+
+    "Da solo/a",
+    "1",
+    "2",
+    "3",
+
+    "SÌ",
+    "NO"
+  ],
+
+  "#content2": [
+    "Hai risposto a 4 domande su 4",
+    "Non esistono sondaggi precedenti associati al tuo IP",
+    "Caricamento regali in corso..."
+  ],
+
+  "#p_modal1": [
+    "<strong><span class=\"p_var-dia_nombre\">Sunday</span>, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">October</span>&nbsp;<span class=\"p_var-anyo\">{YEAR}</span>&nbsp;<span class=\"p_var-hora_fija\">{TIME}</span></strong>",
+
+    "Hai la possibilità di vincere uno dei nostri premi.",
+    "Tenta la fortuna!"
+  ],
+
+  "#p_modal3": [
+    "CONGRATULAZIONI! Hai vinto il {ITEM}",
+    "*** REGOLAMENTO ***",
+    "1. Clicca su \"OK\" per inserire i tuoi dati nella nostra pagina di pagamento.",
+    "2. Inserisci il tuo indirizzo per ricevere un {ITEM}.",
+    "3. {ITEM} sarà consegnato entro 5-7 giorni."
+  ],
+
+  ".comment-content": [
+    "Cazzo, non ho vinto niente!",
+    "Mi piacciono queste promozioni!",
+    "Oggi ho ricevuto la mia {ITEM}. Grazie mille!",
+    "Pensavo fosse uno scherzo, ma la mia {ITEM} è arrivata stamattina!",
+    "Ho partecipato, ho vinto e ho ricevuto la mia {ITEM} dopo 5 giorni. Grazie mille ragazzi!",
+    "Posso ricevere la mia {ITEM} oggi? Grazie",
+    "Pensavo fosse uno scherzo, ma stamattina ho ricevuto la mia {ITEM} tramite DHL e vorrei fare altri sondaggi!",
+    "Ci sono altri sondaggi da fare?",
+    "Fantastico! Non avevo mai vinto niente prima d'ora!",
+    "All'inizio pensavo fosse uno scherzo, ma stamattina ho ricevuto la mia {ITEM}. L'ho detto alle amiche, per farla vincere anche a loro."
+  ],
+  ".comment-status": [
+    "4 minuti fa",
+    "11 minuti fa",
+    "15 minuti fa",
+    "38 minuti fa",
+    "42 minuti fa",
+    "1 ora fa",
+    "2 ore fa",
+    "2 ore fa",
+    "3 ore fa",
+    "4 ore fa"
+  ]
+}

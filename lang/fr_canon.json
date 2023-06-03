@@ -1,0 +1,110 @@
+{
+  "title": "FÉLICITATIONS!",
+  "#content1 h2": "FÉLICITATIONS!",
+  "#content1 h2 + p": "Aujourd'hui, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">{MOUTH}</span>, vous avez été choisi pour participer à cette enquête. Cela ne vous prendra qu'une minute et vous pourrez recevoir un prix fantastique : {ITEM}!",
+  "#content1 > p:nth-of-type(2)": "Chaque <span class=\"p_var-dia_nombre\">{DAY__OF_WEEK}</span>, nous choisissons 10 utilisateurs au hasard et leur donnons la chance de gagner de fabuleux prix. Le prix d'aujourd'hui est un {ITEM}! Il y aura 10 heureux gagnants.",
+  "#content1 > p:nth-of-type(3)": "Cette enquête vise à améliorer le service offert à nos utilisateurs.",
+  "#content1 > p:nth-of-type(4)": "Vous n'avez que <font color=\"red\"><b><span id=\"timerr\" style=\"color:#bc2633\">{TIMER}</span></b></font>, pour participer.",
+  "#content1 > p:nth-of-type(5)": "Dépêchez-vous, le nombre de prix est limité!",
+
+  "#content2 h2": "Nous vérifions vos réponses...",
+
+  "#p_modal1 h2": "FÉLICITATIONS, NOUS AVONS VALIDÉ VOS RÉPONSES.",
+
+  "#p_modal2 p": "Vous avez un tour supplémentaire!",
+
+  "#p_modal3 h2": "FÉLICITATIONS!",
+  "#p_modal3 button": "Postuler maintenant",
+
+  ".intro-offer span": "5.0 (12 recensioni)",
+  ".form-title": "Veuillez saisir vos coordonnées",
+  ".firstname": "Prénom",
+  "#firstnameInvalid": "* Le prénom est invalide (ex. Vincent)",
+  ".lastname": "Nom de famille",
+  "#lastnameInvalid": "* Le nom de famille n’est pas valide (ex. Lambert)",
+  ".address": "Adresse",
+  ".zipcode": "Code postal",
+  ".city": "Ville",
+  ".phone": "Numéro de téléphone",
+  "#phoneInvalid": "* Le numéro de téléphone n’est pas valide (ex. +11234567890)",
+  ".email": "e-mail",
+  "#emailInvalid": "* L’adresse e-mail n’est pas valide (par exemple husband@gmail.com)",
+  ".info-button": "Continuer",
+
+  ".comments p span": "Plus d’options",
+  ".comments:first-of-type p:last-of-type": "10 à 80",
+  ".comment-status span": "Mi piace • Commento <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">6&nbsp;",
+  ".question strong": [
+    "Question 1 de 4",
+    "Question 2 de 4",
+    "Question 3 de 4",
+    "Question 3 de 4"
+  ],
+  ".question span": [
+    "Êtes-vous un homme ou une femme?",
+    "Quel âge avez-vous?",
+    "Combien de membres compte votre famille?",
+    "Avez-vous déjà acheté quelque chose chez {STORE}?"
+  ],
+  ".survey_button": [
+    "Homme",
+    "Femme",
+
+    "18-29",
+    "30-39",
+    "40-49",
+    "50+",
+
+    "Seul (e)",
+    "1",
+    "2",
+    "3",
+
+    "Oui",
+    "Non"
+  ],
+  "#content2": [
+    "Vous avez répondu à 4 questions sur 4",
+    "Il n'y a pas d'enquêtes préliminaires sur votre IP",
+    "Les cadeaux sont en cours de chargement..."
+  ],
+
+  "#p_modal1": [
+    "<strong><span class=\"p_var-dia_nombre\">Sunday</span>, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">October</span>&nbsp;<span class=\"p_var-anyo\">{YEAR}</span>&nbsp;<span class=\"p_var-hora_fija\">{TIME}</span></strong>",
+    "Vous avez la possibilité de gagner l'un de nos prix.",
+    "Tentez votre chance!"
+  ],
+
+  "#p_modal3": [
+    "FÉLICITATIONS! Vous avez gagné le {ITEM}!",
+    "***LES RÈGLES***",
+    "1. Cliquez sur « OK » pour remplir vos coordonnées sur la page de paiement.",
+    "2. Saisissez votre adresse pour recevoir un {ITEM}.",
+    "Cliquez sur «Postuler maintenant».",
+    "3. Le {ITEM} sera livré dans un délai de 5 à 7 jours."
+  ],
+  ".comment-content": [
+    "Dommage, je n’ai rien gagné!",
+    "J’aime ces promotions!",
+    "J’ai reçu aujourd’hui mon appareil photo aujourd’hui. Merci beaucoup!",
+    "Je pensais que c’était une blague, mais mon appareil photo  est arrivé ce matin!",
+    "J’ai participé, j’ai gagné et j’ai reçu mon appareil photo Canon après 5 jours. Merci beaucoup les gars!",
+    "Puis-je recevoir mon appareil photo Canon aujourd’hui? Merci",
+    "Je pensais qu’il s’agissait d’une blague, mais ce matin, j’ai reçu mon appareil photo Canon via DHL et j’adorerais participer à d’autres enquêtes!",
+    "Y a-t-il d’autres enquêtes à effectuer?",
+    "Fantastique! Je n’ai jamais rien gagné auparavant!",
+    "J’ai d’abord cru à une blague, mais j’ai finalement obtenu mon appareil photo. J’en ai parlé à mes amis pour qu’ils puissent en bénéficier également."
+  ],
+  ".comment-status": [
+    "Il y a 4 minutes",
+    "Il y a 11 minutes",
+    "Il y a 15 minutes",
+    "Il y a 38 minutes",
+    "Il y a 42 minutes",
+    "Il y a 1 heure",
+    "Il y a 2 heures",
+    "Il y a 2 heures",
+    "Il y a 3 heures",
+    "Il y a 4 heures"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "HERZLICHEN GLÜCKWUNSCH!",
+  "#content1 h2": "HERZLICHEN GLÜCKWUNSCH!",
+  "#content1 h2 + p": "Heute, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">{MOUTH}</span>, wurden Sie zur Teilnahme an dieser Umfrage ausgewählt. Sie nimmt nur eine Minute Ihrer Zeit in Anspruch und Sie können einen fantastischen Preis erhalten: {ITEM}!",
+  "#content1 > p:nth-of-type(2)": "Wir wählen jeden <span class=\"p_var-dia_nombre\">{DAY__OF_WEEK}</span>, 10 zufällige Nutzer aus und geben ihnen die Chance, tolle Preise zu gewinnen. Der heutige Preis ist ein {ITEM}! Es werden 10 glückliche Gewinner ermittelt.",
+  "#content1 > p:nth-of-type(3)": "Diese Umfrage soll dazu dienen, den Service für unsere Nutzer zu verbessern.",
+  "#content1 > p:nth-of-type(4)": "Sie haben nur <font color=\"red\"><b><span id=\"timerr\" style=\"color:#bc2633\">{TIMER}</span></b></font>, um teilzunehmen.",
+  "#content1 > p:nth-of-type(5)": "Beeilen Sie sich, die Anzahl der Preise ist begrenzt!",
+  "#content2 h2": "Wir überprüfen Ihre Antworten ...",
+  "#p_modal1 h2": "HERZLICHEN GLÜCKWUNSCH, WIR HABEN IHRE ANTWORTEN ERFOLGREICH VALIDIERT.",
+  "#p_modal2 p": "Sie haben eine zusätzliche Chance!",
+  "#p_modal3 h2": "HERZLICHEN GLÜCKWUNSCH!",
+  "#p_modal3 button": "Jetzt bewerben",
+  ".intro-offer span": "5.0 (12 Bewertungen)",
+  ".form-title": "Bitte geben Sie Ihre Daten ein",
+  ".firstname": "Vorname",
+  "#firstnameInvalid": "* Der Vorname ist ungültig (z. B. Vincent)",
+  ".lastname": "Nachname",
+  "#lastnameInvalid": "* Der Nachname ist nicht gültig (z. B. Lambert)",
+  ".address": "Adresse",
+  ".zipcode": "Postleitzahl",
+  ".city": "Stadt",
+  ".phone": "Telefonnummer",
+  "#phoneInvalid": "* Die Telefonnummer ist nicht gültig (z. B. +11234567890)",
+  ".email": "E-Mail ",
+  "#emailInvalid": "* Die E-Mail ist ungültig (z. B. husband@gmail.com)",
+  ".info-button": "Weiter",
+  ".comments p span": "Weitere Optionen",
+  ".comments:first-of-type p:last-of-type": "10 bis 80",
+  ".comment-status span": "Sie gefällt mir • Kommentar <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">6&nbsp;",
+  ".question strong": [
+    "Frage 1 von 3",
+    "Frage 2 von 3",
+    "Frage 3 von 3"
+  ],
+  ".question span": [
+    "Sind Sie aus Schweiz?",
+    "Haben Sie etwas von {BRANDNAME} gekauft?",
+    "Möchten Sie an der Verlosung einer {ITEM} teilnehmen?"
+  ],
+  ".survey_button": [
+    "JA",
+    "NEIN",
+    "JA",
+    "NEIN",
+    "JA",
+    "NEIN"
+  ],
+  "#content2": [
+    "Sie haben 3 von 3 Fragen beantwortet",
+    "Es gibt keine Vorprüfungen Ihrer IP",
+    "Geschenke werden geladen..."
+  ],
+  "#p_modal1": [
+    "<strong><span class=\"p_var-dia_nombre\">Sunday</span>, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">October</span>&nbsp;<span class=\"p_var-anyo\">{YEAR}</span>&nbsp;<span class=\"p_var-hora_fija\">{TIME}</span></strong>",
+    "Sie haben die Chance, einen unserer Preise zu gewinnen.",
+    "Versuchen Sie Ihr Glück!"
+  ],
+  "#p_modal3": [
+    "HERZLICHEN GLÜCKWUNSCH!\nHerzlichen Glückwunsch! Sie haben das {ITEM} gewonnen!",
+    "***DIE REGELN***",
+    "1. Klicken Sie auf „OK“, um Ihre Daten auf unserer Checkout-Seite einzugeben.",
+    "2. Geben Sie Ihre Adresse ein, um ein {ITEM} zu erhalten.",
+    "3. {ITEM} wird innerhalb von 5–7 Tagen geliefert."
+  ],
+  ".comment-content": [
+    "Scheiße, ich habe nichts gewonnen!",
+    "Ich mag diese Werbeaktionen!",
+    "Ich habe meine {ITEM} heute erhalten. Herzlichen Dank!",
+    "Ich dachte, es sei ein Scherz, aber meine {ITEM} ist heute Morgen angekommen!",
+    "Ich nahm teil, gewann und erhielt meine {ITEM} nach 5 Tagen. Vielen Dank, Leute!",
+    "Kann ich meine {ITEM} heute erhalten? Vielen Dank",
+    "Ich dachte, es sei ein Scherz, doch heute Morgen erhielt ich meine {ITEM} per DHL und würde gerne an weiteren Umfragen teilnehmen!",
+    "Gibt es noch andere Umfragen, an denen ich teilnehmen kann?",
+    "Fantastisch! Ich habe noch nie etwas gewonnen!",
+    "Zuerst dachte ich, es sei ein Scherz, aber schließlich bekam ich meine {ITEM}. Ich habe Freunde darüber informiert, damit sie ebenfalls ihre Taschen bekommen können."
+  ],
+  ".comment-status": [
+    "Vor 4 Minuten",
+    "Vor 11 Minuten",
+    "Vor 15 Minuten",
+    "Vor 38 Minuten",
+    "Vor 42 Minuten",
+    "Vor 1 Stunde",
+    "Vor 2 Stunden",
+    "Vor 2 Stunden",
+    "Vor 3 Stunden",
+    "Vor 4 Stunden"
+  ]
+}
