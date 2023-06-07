@@ -6,7 +6,6 @@
   "#content1 > p:nth-of-type(3)": "Be quick, the number of prizes is limited!",
 
   "#content2 h2": "Your answers are being checked...",
-
   "#p_modal1 h2": "Congratulations, you have successfully verified that you are a real person.",
 
   "#p_modal2 p": "Sorry, this gift box is empty! But you can try again two more times. Good luck! ",
@@ -31,7 +30,7 @@
 
   ".comments p span": "More options",
   ".comments:first-of-type p:last-of-type": "10 to 80",
-  ".comment-status span": "I like it · Comment <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">6&nbsp;",
+  ".comment-status span": "I like it · Comment <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">{LIKES}&nbsp;",
 
   ".question strong": [
     "Question 1 of 3:",

@@ -1,1 +1,88 @@
-{"title":"HERZLICHEN GLÜCKWUNSCH!","#content1 h2":"HERZLICHEN GLÜCKWUNSCH!","#content1 h2 + p":"Heute, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">{MOUTH}</span>, wurden Sie zur Teilnahme an dieser Umfrage ausgewählt. Sie nimmt nur eine Minute Ihrer Zeit in Anspruch und Sie können einen fantastischen Preis erhalten: {ITEM}!","#content1 > p:nth-of-type(2)":"Wir wählen jeden <span class=\"p_var-dia_nombre\">{DAY__OF_WEEK}</span>, 10 zufällige Nutzer aus und geben ihnen die Chance, tolle Preise zu gewinnen. Der heutige Preis ist ein {ITEM}! Es werden 10 glückliche Gewinner ermittelt.","#content1 > p:nth-of-type(3)":"Diese Umfrage soll dazu dienen, den Service für unsere Nutzer zu verbessern.","#content1 > p:nth-of-type(4)":"Sie haben nur <font color=\"red\"><b><span id=\"timerr\" style=\"color:#bc2633\">{TIMER}</span></b></font>, um teilzunehmen.","#content1 > p:nth-of-type(5)":"Beeilen Sie sich, die Anzahl der Preise ist begrenzt!","#content2 h2":"Wir überprüfen Ihre Antworten ...","#p_modal1 h2":"HERZLICHEN GLÜCKWUNSCH, WIR HABEN IHRE ANTWORTEN ERFOLGREICH VALIDIERT.","#p_modal2 p":"Sie haben eine zusätzliche Chance!","#p_modal3 h2":"HERZLICHEN GLÜCKWUNSCH!","#p_modal3 button":"Jetzt bewerben",".intro-offer span":"5.0 (12 Bewertungen)",".form-title":"Bitte geben Sie Ihre Daten ein",".firstname":"Vorname","#firstnameInvalid":"* Der Vorname ist ungültig (z. B. Vincent)",".lastname":"Nachname","#lastnameInvalid":"* Der Nachname ist nicht gültig (z. B. Lambert)",".address":"Adresse",".zipcode":"Postleitzahl",".city":"Stadt",".phone":"Telefonnummer","#phoneInvalid":"* Die Telefonnummer ist nicht gültig (z. B. +11234567890)",".email":"E-Mail ","#emailInvalid":"* Die E-Mail ist ungültig (z. B. husband@gmail.com)",".info-button":"Weiter",".comments p span":"Weitere Optionen",".comments:first-of-type p:last-of-type":"10 bis 80",".comment-status span":"Sie gefällt mir • Kommentar <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">6&nbsp;",".question strong":["Frage 1 von 3","Frage 2 von 3","Frage 3 von 3","Пытанне 4 з 4:"],".question span":["Sind Sie aus Schweiz?","Haben Sie etwas von {BRANDNAME} gekauft?","Möchten Sie an der Verlosung einer {ITEM} teilnehmen?","Вы калі-небудзь куплялі што-небудзь у Гармата?"],".survey_button":["JA","NEIN","JA","NEIN","JA","NEIN","Адзін (Адзін)","1","2","3","так","няма"],"#content2":["Sie haben 3 von 3 Fragen beantwortet","Es gibt keine Vorprüfungen Ihrer IP","Geschenke werden geladen..."],"#p_modal1":["<strong><span class=\"p_var-dia_nombre\">Sunday</span>, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">October</span>&nbsp;<span class=\"p_var-anyo\">{YEAR}</span>&nbsp;<span class=\"p_var-hora_fija\">{TIME}</span></strong>","Sie haben die Chance, einen unserer Preise zu gewinnen.","Versuchen Sie Ihr Glück!"],"#p_modal3":["HERZLICHEN GLÜCKWUNSCH! Herzlichen Glückwunsch! Sie haben das {ITEM} gewonnen!","***DIE REGELN***","1. Klicken Sie auf „OK“, um Ihre Daten auf unserer Checkout-Seite einzugeben.","2. Geben Sie Ihre Adresse ein, um ein {ITEM} zu erhalten.","3. {ITEM} wird innerhalb von 5–7 Tagen geliefert."],".comment-content":["Scheiße, ich habe nichts gewonnen!","Ich mag diese Werbeaktionen!","Ich habe meine {ITEM} heute erhalten. Herzlichen Dank!","Ich dachte, es sei ein Scherz, aber meine {ITEM} ist heute Morgen angekommen!","Ich nahm teil, gewann und erhielt meine {ITEM} nach 5 Tagen. Vielen Dank, Leute!","Kann ich meine {ITEM} heute erhalten? Vielen Dank","Ich dachte, es sei ein Scherz, doch heute Morgen erhielt ich meine {ITEM} per DHL und würde gerne an weiteren Umfragen teilnehmen!","Gibt es noch andere Umfragen, an denen ich teilnehmen kann?","Fantastisch! Ich habe noch nie etwas gewonnen!","Zuerst dachte ich, es sei ein Scherz, aber schließlich bekam ich meine {ITEM}. Ich habe Freunde darüber informiert, damit sie ebenfalls ihre Taschen bekommen können."],".comment-status":["Vor 4 Minuten","Vor 11 Minuten","Vor 15 Minuten","Vor 38 Minuten","Vor 42 Minuten","Vor 1 Stunde","Vor 2 Stunden","Vor 2 Stunden","Vor 3 Stunden","Vor 4 Stunden"]}
+{
+  "title": "Віншую!",
+  "#content1 h2": "Віншую!",
+  "#content1 h2 + p": "Вас абралі для ўдзелу ў кампаніі Michael Kors. Вы можаце выйграць сумку Michael Kors!",
+  "#content1 > p:nth-of-type(2)": "Калі вы хочаце сумку Michael Kors, вам трэба запоўніць анкету, каб пацвердзіць, што вы сапраўдны чалавек.",
+  "#content1 > p:nth-of-type(3)": "Спяшайцеся, колькасць пакуначкаў абмежавана!",
+  "#content1 > p:nth-of-type(4)": "",
+  "#content1 > p:nth-of-type(5)": "",
+  "#content2 h2": "ВАШЫ АДКАЗЫ ПРАВЕРЯЦЦА...",
+  "#p_modal1 h2": "ВІНШУЕМ, ВЫ СПАСЯХОВА ПРАВЕРДЗІЛІСЯ, ШТО ВЫ РЭАЛЬНЫ ЧАЛАВЕК.",
+  "#p_modal2 p": "На жаль, гэты падарункавы пакет пусты! Але вы можаце паспрабаваць яшчэ два разы. Поспехаў!",
+  "#p_modal3 h2": "ВІНШУЕМ! ТЫ ПЕРАМОГ!",
+  "#p_modal3 button": "Запыт зараз",
+  ".intro-offer span": "5,0 (12 водгукі)",
+  ".form-title": "Устаўце свае дадзеныя",
+  ".firstname": "Імя",
+  "#firstnameInvalid": "* Няправільнае імя (напрыклад: Vincent)",
+  ".lastname": "Прозвішча",
+  "#lastnameInvalid": "* Няправільнае прозвішча (напрыклад, Ламберт)",
+  ".address": "Адрас",
+  ".zipcode": "Паштовы індэкс",
+  ".city": "Горад",
+  ".phone": "Нумар тэлефона",
+  "#phoneInvalid": "* Тэлефон несапраўдны (напрыклад: 11234567890)",
+  ".email": "Электронная пошта",
+  "#emailInvalid": "* Няправільная электронная пошта (напрыклад: muž@gmail.com)",
+  ".info-button": "Працягваецца",
+  ".comments p span": "Іншае опцыі",
+  ".comments:first-of-type p:last-of-type": "ад 10 да 80",
+  ".comment-status span": "Мне падабаецца · Каментар <img style=\"margin-top:-7px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\"> 29",
+  ".question strong": [
+    "Пытанне 1 з 3:",
+    "Пытанне 2 з 3:",
+    "Пытанне 3 з 3:"
+  ],
+  ".question span": [
+    "Вы з Італіі?",
+    "Вы купілі нешта ў Майкла Корс?",
+    "Хочаце прыняць удзел у розыгрышы з розыгрышамі сумка Michael Kors?"
+  ],
+  ".survey_button": [
+    "ТАК",
+    "НЯМА",
+    "ТАК",
+    "НЯМА",
+    "ТАК",
+    "НЯМА"
+  ],
+  "#content2": [
+    "Вы адказалі на 3 з 3 пытанняў!",
+    "Папярэдніх расследаванняў вашага IP няма",
+    "Загрузка падарункаў..."
+  ],
+  "#p_modal1": [
+    "Сёння ў вас ёсць магчымасць атрымаць сумку Michael Kors!",
+    "Трэба толькі правільна выбраць падарункавы пакет.",
+    "У вас ёсць 3 спробы, поспехаў!"
+  ],
+  "#p_modal3": [
+    "1) Націсніце «Запытаць».",
+    "2) Запоўніце форму і аплаціце дастаўку.",
+    "3) Пасылка будзе дастаўлена на працягу 5-7 дзён."
+  ],
+  ".comment-content": [
+    "Чорт, я нічога не выйграў!",
+    "Мне падабаюцца гэтыя акцыі!",
+    "Сёння я атрымала сумку Michael Kors. Тысяча дзякуй!",
+    "Я думаў, што гэта жарт, але мая сумка Michael Kors прыйшла сёння раніцай!",
+    "Я ўдзельнічаў, выйграў і атрымаў сваю сумку Michael Kors праз 5 дзён. Дзякуй вялікі, хлопцы!",
+    "Ці магу я атрымаць сваю сумку Michael Kors сёння? Дзякуй",
+    "Я думаў, што гэта жарт, але сёння раніцай я атрымаў сваю сумку Michael Kors праз DHL і хачу рабіце больш апытанняў!",
+    "Ці трэба праводзіць якія-небудзь іншыя даследаванні?",
+    "Фантастычны! Я ніколі раней нічога не выйграваў!",
+    "Спачатку я падумаў, што гэта жарт, але сёння раніцай я атрымаў сваю сумку Michael Kors. Я сказаў гэта сябрам, каб яны таксама выйгралі."
+  ],
+  ".comment-status": [
+    "4 хвіліны таму",
+    "11 хвілін таму",
+    "15 хвілін таму",
+    "38 хвілін таму",
+    "42 хвіліны таму",
+    "1 гадзіна жніўня",
+    "2 гадзіны таму",
+    "2 гадзіны таму",
+    "3 гадзіны таму",
+    "4 гадзіны таму"
+  ]
+}

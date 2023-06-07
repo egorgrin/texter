@@ -3,9 +3,9 @@ const cheerio = require('cheerio');
 const fse = require('fs-extra');
 
 // Если нужен авто перевод
-const translateFrom = 'fr';
+const translateFrom = 'it';
 
-const targetLanguage = 'de_canon';
+const targetLanguage = 'en';
 
 async function perform(element, child, action, htmlDocument, languageJSON) {
 
@@ -78,6 +78,20 @@ async function perform(element, child, action, htmlDocument, languageJSON) {
       }
     }
   }
+
+  // Add likes count to [.comment-status span]
+
+  if (action === `replace`) {
+    const likesArray = [29, 9, 22, 36, 31, 6, 15, 39, 23, 30];
+
+    const elements = htmlDocument('body').find('.comment-status');
+
+    for (let i = 0; i < elements.length; i++) {
+      const replacedHtml = htmlDocument(elements[i]).html().replace('{LIKES}', likesArray[i]);
+      htmlDocument(elements[i]).html(replacedHtml);
+    }
+  }
+
 }
 
 const selectors = [
@@ -113,8 +127,8 @@ const selectors = [
   ['.comments p span'], ['.comments:first-of-type p:last-of-type'],
 
   // Comments
-  ['.comment-content', 'p:not(.name)'], // Likes
-  ['.comment-status span'], // Time
+  ['.comment-content', 'p:not(.name)'],
+  ['.comment-status span'],  // Likes
   ['.comment-status', 'u']];
 
 async function run(action, htmlDocument, languageJSON) {
@@ -128,7 +142,7 @@ async function eject() {
   const srcPath = `src/index.html`;
   const distPath = `dist/index.html`;
 
-  const path = ejectPath;
+  const path = distPath;
 
   const htmlDocument = cheerio.load(fs.readFileSync(`${path}`, 'utf8'));
   const languageJSON = JSON.parse(fs.readFileSync(`eject/template.json`, 'utf8'));
