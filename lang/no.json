@@ -1,93 +1,83 @@
 {
-  "replace": {
-    "title": "Gratulerer!",
-    "#content1 h2": "Gratulerer!",
-    "#content1 h2 + p": "Du har blitt valgt til å delta i Canon-kampanjen. Du kan vinne Canon kamera!",
-    "#content1 > p:nth-of-type(2)": "Hvis du vil ha Canon kamera, må du besvare en undersøkelse for å bekrefte at du er en ekte person.",
-    "#content1 > p:nth-of-type(3)": "Vær rask, antall premier er begrenset!",
-
-    "#content2 h2": "SVARENE DINE KONTROLLERES...",
-    "#p_modal1 h2": "Gratulerer, vi har bekreftet svarene dine.",
-
-    "#p_modal2 p": "Denne gaveesken er tom! Du har to flere forsøk. Lykke til!",
-
-    "#p_modal3 h2": "GRATULERER! DU VANT!!",
-    "#p_modal3 button": "Slå til",
-
-    ".intro-offer span": "5.0 (12 vurderinger)",
-    ".form-title": "Angi de personlige opplysningene dine:",
-    ".firstname": "Fornavn",
-    "#firstnameInvalid": "* Fornavnet er ugyldig (f.eks. Vidar)",
-    ".lastname": "Etternavn",
-    "#lastnameInvalid": "* Etternavnet ugyldig (f.eks. Olsen)",
-    ".address": "Adresse",
-    ".zipcode": "Postnummer",
-    ".city": "Sted",
-    ".phone": "Telefonnummer",
-    "#phoneInvalid": "* Telefonnummeret er ugyldig (f.eks. +11234567890)",
-    ".email": "E-postadresse",
-    "#emailInvalid": "* E-postadressen er ugyldig (f.eks. ektemann@gmail.com)",
-    ".info-button": "Fortsett",
-
-    ".comments p span": "Flere alternativer",
-    ".comments:first-of-type p:last-of-type": " 10 til 80",
-    ".comment-status span": "Jeg liker det • Kommentar"
-  },
-  "replaceQ": {
-    ".question strong": [
-      "Spørsmål 1 av 4:",
-      "Spørsmål 2 av 4:",
-      "Spørsmål 3 av 3:"
-    ],
-    ".question span": [
-      "Er du fra Norge?",
-      "Har du noen gang kjøpt noe av Canon?",
-      "Vil du delta i loddtrekningen om å vinne Canon kamera?"
-    ]
-  },
-  "replaceIn": {
-    "#content1": [
-      "Ja",
-      "Nei"
-    ],
-    "#content2": [
-      "Du svarte på 1 av 3 spørsmål",
-      "Det finnes ingen foreløpige undersøkelser av IP-en din",
-      "Gavene lastes inn..."
-    ],
-    "#p_modal1": [
-      "I dag har du muligheten til å vinne Canon kamera!",
-      "Bare velg riktig gaveeske.",
-      "Du har tre forsøk, lykke til!"
-    ],
-    "#p_modal3": [
-      "1) Klikk på «Slå til».",
-      "2) Fyll ut skjemaet og betal for frakten.",
-      "3) Pakken leveres innen 5–7 dager."
-    ],
-    ".comment-content": [
-      "Jeg har ikke vunnet noe!",
-      "Jeg liker disse kampanjene!",
-      "Jeg mottok Canon kamera i dag. Tusen takk!",
-      "Jeg trodde det var en spøk, men kamera kom i morges!",
-      "Jeg deltok, vant og mottok Canon kamera etter fem dager. Tusen takk, folkens!",
-      "Kan jeg motta kamera i dag? Takk.",
-      "Jeg trodde det var en spøk, men i morges mottok jeg kamera via DHL, og jeg vil derfor gjerne besvare flere undersøkelser!",
-      "Kan jeg besvare noen andre undersøkelser?",
-      "Fantastisk! Jeg har aldri vunnet noe før!",
-      "Først trodde jeg det var en spøk, men til slutt mottok jeg Canon kamera. Jeg fortalte venner om det, så de kan få sine også."
-    ],
-    ".comment-status": [
-      "4 minutter siden",
-      "11 minutter siden",
-      "15 minutter siden",
-      "38 minutter siden",
-      "42 minutter siden",
-      "1 time ago",
-      "2 timer siden",
-      "2 timer siden",
-      "3 timer siden",
-      "4 timer siden"
-    ]
-  }
+  "title": "Gratulerer!",
+  "#content1 h2": "Gratulerer!",
+  "#content1 h2 + p": "Du har blitt valgt til å delta i {BRANDNAME}-kampanjen. Du kan vinne {BRANDNAME ITEM}!",
+  "#content1 > p:nth-of-type(2)": "Hvis du vil ha {BRANDNAME ITEM}, må du besvare en undersøkelse for å bekrefte at du er en ekte person.",
+  "#content1 > p:nth-of-type(3)": "Vær rask, antall premier er begrenset!",
+  "#content2 h2": "SVARENE DINE KONTROLLERES...",
+  "#p_modal1 h2": "Gratulerer, vi har bekreftet svarene dine.",
+  "#p_modal2 p": "Denne gaveesken er tom! Du har to flere forsøk. Lykke til!",
+  "#p_modal3 h2": "GRATULERER! DU VANT!!",
+  "#p_modal3 button": "Slå til",
+  ".intro-offer span": "5.0 (12 vurderinger)",
+  ".form-title": "Angi de personlige opplysningene dine:",
+  ".firstname": "Fornavn",
+  "#firstnameInvalid": "* Fornavnet er ugyldig (f.eks. Vidar)",
+  ".lastname": "Etternavn",
+  "#lastnameInvalid": "* Etternavnet ugyldig (f.eks. Olsen)",
+  ".address": "Adresse",
+  ".zipcode": "Postnummer",
+  ".city": "Sted",
+  ".phone": "Telefonnummer",
+  "#phoneInvalid": "* Telefonnummeret er ugyldig (f.eks. +11234567890)",
+  ".email": "E-postadresse",
+  "#emailInvalid": "* E-postadressen er ugyldig (f.eks. ektemann@gmail.com)",
+  ".info-button": "Fortsett",
+  ".comments p span": "Flere alternativer",
+  ".comments:first-of-type p:last-of-type": " 10 til 80",
+  ".comment-status span": "Jeg liker det • Kommentar",
+  ".question strong": [
+    "Spørsmål 1 av 4:",
+    "Spørsmål 2 av 4:",
+    "Spørsmål 3 av 3:"
+  ],
+  ".question span": [
+    "Er du fra Norge?",
+    "Har du noen gang kjøpt noe av Canon?",
+    "Vil du delta i loddtrekningen om å vinne Canon kamera?"
+  ],
+  "#content1": [
+    "Ja",
+    "Nei"
+  ],
+  "#content2": [
+    "Du svarte på 1 av 3 spørsmål",
+    "Det finnes ingen foreløpige undersøkelser av IP-en din",
+    "Gavene lastes inn..."
+  ],
+  "#p_modal1": [
+    "I dag har du muligheten til å vinne Canon kamera!",
+    "Bare velg riktig gaveeske.",
+    "Du har tre forsøk, lykke til!"
+  ],
+  "#p_modal3": [
+    "1) Klikk på «Slå til».",
+    "2) Fyll ut skjemaet og betal for frakten.",
+    "3) Pakken leveres innen 5–7 dager."
+  ],
+  ".comment-content": [
+    "Jeg har ikke vunnet noe!",
+    "Jeg liker disse kampanjene!",
+    "Jeg mottok Canon kamera i dag. Tusen takk!",
+    "Jeg trodde det var en spøk, men kamera kom i morges!",
+    "Jeg deltok, vant og mottok Canon kamera etter fem dager. Tusen takk, folkens!",
+    "Kan jeg motta kamera i dag? Takk.",
+    "Jeg trodde det var en spøk, men i morges mottok jeg kamera via DHL, og jeg vil derfor gjerne besvare flere undersøkelser!",
+    "Kan jeg besvare noen andre undersøkelser?",
+    "Fantastisk! Jeg har aldri vunnet noe før!",
+    "Først trodde jeg det var en spøk, men til slutt mottok jeg Canon kamera. Jeg fortalte venner om det, så de kan få sine også."
+  ],
+  ".comment-status": [
+    "4 minutter siden",
+    "11 minutter siden",
+    "15 minutter siden",
+    "38 minutter siden",
+    "42 minutter siden",
+    "1 time ago",
+    "2 timer siden",
+    "2 timer siden",
+    "3 timer siden",
+    "4 timer siden"
+  ]
 }
+

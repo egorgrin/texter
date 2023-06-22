@@ -4,13 +4,15 @@
   "#content1 h2 + p": "Jūs esat izvēlēts dalībai {BRANDNAME} kampaņā. Jūs varētu laimēt {BRANDNAME} {ITEM}!",
   "#content1 > p:nth-of-type(2)": "Ja vēlaties {BRANDNAME} {ITEM}, jums būs jāaizpilda aptauja, lai apliecinātu, ka esat īsta persona.",
   "#content1 > p:nth-of-type(3)": "Pasteidzieties, balvu skaits ir ierobežots!",
-  "#content1 > p:nth-of-type(4)": "",
-  "#content1 > p:nth-of-type(5)": "",
+
   "#content2 h2": "JŪSU ATBILDES TIEK PĀRBAUDĪTAS...",
   "#p_modal1 h2": "APSVEICAM, ESAM VEIKSMĪGI VERIFICĒJUŠI, KA ESAT ĪSTS CILVĒKS.",
+
   "#p_modal2 p": "Diemžēl, šī dāvanu kastīte ir tukša! Bet jūs varat mēģināt vēlreiz vēl divas reizes. Lai veicas!",
+
   "#p_modal3 h2": "APSVEICAM! JŪS ESAT LAIMĒJIS!",
   "#p_modal3 button": "Pieteikties tagad",
+
   ".intro-offer span": "5.0 (12 atsauksmes)",
   ".form-title": "Lūdzu, ievadiet savu informāciju:",
   ".firstname": "Vārds",
@@ -23,11 +25,13 @@
   ".phone": "Telefona numurs",
   "#phoneInvalid": "* Tel. numurs nav derīgs (piem., +11234567890)",
   ".email": "E-pasts",
-  "#emailInvalid": "* E-pasts (piem., janaozola@gmail.com)\"",
+  "#emailInvalid": "* E-pasts (piem., janaozola@gmail.com)",
   ".info-button": "Turpināt",
+
   ".comments p span": "Vairāk iespēju",
   ".comments:first-of-type p:last-of-type": "no 10 līdz 80",
-  ".comment-status span": "Atzīmējiet ar Patīk · Atstājiet komentāru <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">29&nbsp;",
+  ".comment-status span": "Atzīmējiet ar Patīk · Atstājiet komentāru <img alt=\"\" style=\"margin-top:-4px\" src=\"assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp\" width=\"15px\" height=\"15px\">{LIKES}&nbsp;",
+
   ".question strong": [
     "Jautājums 1 of 3:",
     "Jautājums 2 of 3:",
@@ -52,7 +56,9 @@
     "Dāvanas tiek ielādētas..."
   ],
   "#p_modal1": [
-    "Šodien jums ir iespēja iegūt {BRANDNAME} {ITEM}!"
+    "Šodien jums ir iespēja iegūt {BRANDNAME} {ITEM}!",
+    "Vienkārši izvēlieties pareizo dāvanu kastīti.",
+    "Jums ir 3 mēģinājumi, veiksmi!"
   ],
   "#p_modal3": [
     "1) Noklikšķiniet uz \"Pieteikties tūlīt\".",

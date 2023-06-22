@@ -3,9 +3,9 @@ const cheerio = require('cheerio');
 const fse = require('fs-extra');
 
 // Если нужен авто перевод
-const translateFrom = 'it';
+const translateFrom = 'en';
 
-const targetLanguage = 'en';
+const targetLanguage = 'ejected';
 
 async function perform(element, child, action, htmlDocument, languageJSON) {
 
@@ -91,7 +91,6 @@ async function perform(element, child, action, htmlDocument, languageJSON) {
       htmlDocument(elements[i]).html(replacedHtml);
     }
   }
-
 }
 
 const selectors = [
@@ -127,9 +126,9 @@ const selectors = [
   ['.comments p span'], ['.comments:first-of-type p:last-of-type'],
 
   // Comments
-  ['.comment-content', 'p:not(.name)'],
-  ['.comment-status span'],  // Likes
-  ['.comment-status', 'u']];
+  ['.comment-content', 'p:not(.name)'], // Comment
+  ['.comment-status span'],  // Like it
+  ['.comment-status', 'u']]; // Time
 
 async function run(action, htmlDocument, languageJSON) {
   for (const [element, child] of selectors) {
@@ -138,14 +137,8 @@ async function run(action, htmlDocument, languageJSON) {
 }
 
 async function eject() {
-  const ejectPath = `eject/src/index.html`;
-  const srcPath = `src/index.html`;
-  const distPath = `dist/index.html`;
-
-  const path = distPath;
-
-  const htmlDocument = cheerio.load(fs.readFileSync(`${path}`, 'utf8'));
-  const languageJSON = JSON.parse(fs.readFileSync(`eject/template.json`, 'utf8'));
+  const htmlDocument = cheerio.load(fs.readFileSync(`src/index.html`, 'utf8'));
+  const languageJSON = JSON.parse(fs.readFileSync(`lang/template.json`, 'utf8'));
   const removeNewlinesAndSpaces = (obj) => {
     for (let key in obj) {
       if (typeof obj[key] === 'string') {

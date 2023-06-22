@@ -38,9 +38,9 @@
     "Question 3 of 3:"
   ],
   ".question span": [
-    "Are you from United States?",
-    "Have you bought anything of {BRANDNAME}?",
-    "Do you want to participate in the raffle for a {BRANDNAME} {ITEM}?"
+    "Are you from the United States?",
+    "Have you bought anything of {STORE}?",
+    "Would you like to participate in a raffle for a {ITEM}?"
   ],
   ".survey_button": [
     "YES",
