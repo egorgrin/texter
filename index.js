@@ -5,7 +5,7 @@ const fse = require('fs-extra');
 // Если нужен авто перевод
 const translateFrom = 'en';
 
-const targetLanguage = 'ejected';
+const targetLanguage = 'fr';
 
 async function perform(element, child, action, htmlDocument, languageJSON) {
 

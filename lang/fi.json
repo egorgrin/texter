@@ -1,8 +1,8 @@
 {
   "title": "ONNITTELUT!",
   "#content1 h2": "ONNITTELUT!",
-  "#content1 h2 + p": "Tänään, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">{MOUTH}</span>, sinut on valittu osallistumaan tähän kyselyyn. Se vie vain hetken aikaasi ja voit saada upean palkinnon: Canonin kamera!",
-  "#content1 > p:nth-of-type(2)": "Joka <span class=\"p_var-dia_nombre\">{DAY__OF_WEEK}</span>, valitsemme 10 satunnaista käyttäjää, joille annamme mahdollisuuden voittaa upeita palkintoja. Tämän päivän palkinto on Canonin kamera! Arvomme 10 onnekasta voittajaa.",
+  "#content1 h2 + p": "Tänään, <span class=\"p_var-dia\">{DAY}</span>&nbsp;<span class=\"p_var-mes_nombre\">{MOUTH}</span>, sinut on valittu osallistumaan tähän kyselyyn. Se vie vain hetken aikaasi ja voit saada upean palkinnon: BRANDNAME ITEM!",
+  "#content1 > p:nth-of-type(2)": "Joka <span class=\"p_var-dia_nombre\">{DAY__OF_WEEK}</span>, valitsemme 10 satunnaista käyttäjää, joille annamme mahdollisuuden voittaa upeita palkintoja. Tämän päivän palkinto on BRANDNAME ITEM! Arvomme 10 onnekasta voittajaa.",
   "#content1 > p:nth-of-type(3)": "Tämän kyselyn tavoitteena on parantaa palvelua käyttäjillemme.",
   "#content1 > p:nth-of-type(4)": "Sinulla on vain <font color=\"red\"><b><span id=\"timerr\" style=\"color:#bc2633\">0&nbsp;minute et 00 secondes</span></b></font>, aikaa osallistua.",
   "#content1 > p:nth-of-type(5)": "Toimi nopeasti, palkintoja on rajoitettu määrä!",
@@ -65,20 +65,20 @@
     "Kokeile onneasi!"
   ],
   "#p_modal3": [
-    "Onnittelut! Voitit palkinnon Canonin kamera!",
+    "Onnittelut! Voitit palkinnon BRANDNAME ITEM!",
     "***SÄÄNNÖT***",
     "1. Napsauta \"OK\" täyttääksesi tietosi kassalla.",
-    "2. Anna osoitteesi saadaksesi tuotteen Canonin kamera.",
-    "3. Tuote Canonin kamera toimitetaan 5–7 päivän kuluessa"
+    "2. Anna osoitteesi saadaksesi tuotteen BRANDNAME ITEM.",
+    "3. Tuote BRANDNAME ITEM toimitetaan 5–7 päivän kuluessa"
   ],
   ".comment-content": [
     "Hitto, en voittanut mitään!",
     "Pidän näistä kampanjoista!",
-    "Sain Canonini tänään. Kiitos paljon!",
+    "Sain BRANDNAMEi tänään. Kiitos paljon!",
     "Luulin sitä vitsiksi, mutta kamerani saapui tänä aamuna!",
     "Osallistuin, voitin ja sain canon-kamerani 5 päivän kuluttua. Kiitos paljon, kaverit!",
     "Voinko saada kamerani tänään? Kiitoksia.",
-    "I thought it was a joke but this morning I received my kamera via DHL and would like to take more surveys!",
+    "I thought it was a joke but this morning I received my ITEM via DHL and would like to take more surveys!",
     "Onko muita tutkimuksia tehtävänä?",
     "Fantastista! En ole koskaan ennen voittanut mitään!",
     "Aluksi luulin sitä vitsiksi, mutta lopulta sain Canon-kamerani. Kerroin siitä ystävilleni, jotta hekin voivat hankkia omansa."

